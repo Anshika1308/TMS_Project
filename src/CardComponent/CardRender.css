@@ -1,0 +1,35 @@
+.card-render {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media screen and (max-device-width: 768px){
+    .card-render{
+        width: 100%;
+    }
+}
+@media screen and (max-device-width: 540px)
+{
+    .card-render{
+        width: 100%;
+    }
+}
+
+@media screen and (max-device-width: 414px){
+    .card-render{
+        width: 100%;
+    }
+}
+
+@media screen and (max-device-width: 375px){
+    .card-render{
+        width:100%;
+    }
+}
+
+@media screen and (max-device-width: 280px){
+    .card-render{
+        width:100%;
+    }
+}

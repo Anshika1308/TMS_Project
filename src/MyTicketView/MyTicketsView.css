@@ -1,0 +1,95 @@
+.my-ticket-view{
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 15rem);
+    margin-left: 15rem;
+    height: 100vh;
+    position: absolute;
+}
+.my-tickets-filter {
+    margin-top: 3.5rem;
+    /* margin-left: 15rem; */
+    margin-right: 1rem;
+
+}
+.my-tickets-display{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100vh;
+    
+    /* margin-left: 15rem; */
+}
+
+@media screen and (max-device-width: 1024px){
+    .my-ticket-view{
+        width: calc(100% - 14rem);
+        margin-left: 14rem;
+        flex-direction: column;
+    
+        /* flex-wrap: wrap; */
+    }
+    .my-tickets-filter{
+        margin-top: 3.5rem;
+    /* margin-left: 14rem; */
+        
+    }
+}
+@media screen and (max-device-width: 800px){
+    .my-ticket-view {
+        width: 100%;
+        margin-left: 0rem;
+    
+    }
+    .my-tickets-filter{
+        margin-left: 10px;
+        margin-top: 4rem;
+        
+    }
+}
+@media screen and (max-device-width: 768px){
+    .my-ticket-view{
+        width: 100%;
+    }
+    .my-tickets-filter{
+        margin-left: 1rem;
+        margin-top: 5rem;
+        margin-right: 1rem;
+    }
+}
+@media screen and (max-device-width: 540px){
+
+    .my-tickets-filter {
+        margin-left: 1rem;
+        margin-top: 4rem;
+        margin-right: 1rem;
+    }
+}
+@media screen and (max-device-width: 414px){
+    .my-ticket-view{
+        width: 100%;
+        /* margin-top: 10px; */
+    }
+    .my-tickets-filter{
+        margin-left: 1rem;
+        margin-top: 3.4rem;
+    }
+    .my-tickets-display{
+        width: 100%;
+    }
+
+}
+@media screen and (max-device-width: 375px){
+    .my-ticket-view{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .my-tickets-filter{
+        margin-left: 10px;
+        margin-top: 2.5rem;
+    }
+    .my-tickets-display{
+        width: 100%;
+    }
+
+}

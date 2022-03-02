@@ -1,0 +1,2838 @@
+body{
+  background-color: whitesmoke;
+}
+
+
+.head1{
+  display: flex;
+  margin-top: 8px;
+  width: 910px;
+
+}
+
+.head{
+ 
+  width: 705px;
+  margin-left: 10px;
+  height: 5vh;
+  display: flex;
+  background-color: white;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+
+
+.headstyle{
+  display: flex;
+  margin-left: 65px;
+  margin-top: 10px;
+}
+
+.headstyle h2{
+
+  margin-top: 10px;
+  color: black;
+  font-size: 1.4rem;
+ 
+  height: 5vh;
+  width: 150px;
+  
+}
+
+.addicon{
+  
+  position: absolute;
+  margin-bottom: 8px;
+ 
+}
+
+.button .tname{
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+.headstyle .button {
+background-color: darkblue;
+color: white;
+text-align: center;
+border-radius: 3px;
+border: 2px solid darkblue;
+cursor: pointer;
+margin-left: 300px;
+width: 130px;
+height: 4vh;
+font-size: 0.7rem;
+margin-top: 12px;
+display: flex;
+}
+
+.baricon{
+  
+  height: 8vh;
+  width: 1000px;
+  
+}
+
+.create-new-ticket {
+  display: flex;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+  align-items: center;
+}
+
+.ticket-new {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  margin-left: 10px;
+  border-radius: 5px;
+  
+}
+
+.ticket-new > span {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+
+
+.maincontainer{
+  display: flex;
+  margin-left: 14rem;
+  margin-right: 1rem;
+  width: calc(100% - 15rem);
+  flex-direction: row;
+}
+
+.showFile {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.delFile {
+  cursor: pointer !important ;
+  color: rgb(192, 59, 59) !important;
+}
+
+
+/* .container{
+    
+
+    
+  } */
+
+  /* .container2{
+    background-color: white;
+    height: 120vh;
+    width: 320px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .container2 h1{
+    font-size: 1.0rem;
+    margin-left: 10px;
+    margin-top: 10px;
+  } */
+
+  .accordian{
+    margin-top: 61px;
+    /* position: absolute; */
+    /* margin-left: 1030px; */
+    /* width: calc(100% - 1rem); */
+    /* height: 50vh; */
+  }
+
+ .accordianstyle .suggestion{
+    font-size: 0.8rem;
+    
+  }
+
+  .accordian .suggestion{
+    font-size: 0.65rem;
+    
+  }
+
+
+  .accordianstyle{
+    margin-top: 10px;
+  }
+
+   
+ .container_2 {
+   /* height: 100vh; */
+   margin-top: 4rem;
+   
+   /* margin-left: 12.5rem; */
+   /* width: calc(100% - 12.5rem); */
+ }
+
+ 
+ .sub_container{
+    max-width: 780px;
+    width: auto;
+    padding: 5px 35px 15px 15px;
+    border-radius: 5px;
+    background: white;
+    /* height: 120vh; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    overflow-x: hidden;
+  }
+
+ .sub_container .title{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    
+  }
+
+ .sub_container label{
+
+    font-weight: bold;
+    justify-content: right;
+    font-size: small;
+  }
+
+
+  .sub_container .user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+
+  .sub_container .select1{
+    margin-left: 1px;
+   
+    position: absolute;
+  }
+  
+ 
+.sub_container  .sel{
+    height: 5vh;
+    width: 200px;
+    justify-content: center;
+    margin-top: 30px;
+    border-color: lightblue;
+    
+  }
+
+  .sub_container .clientstyle{
+  
+    margin-top: 1px;
+    /* margin-left: 100px; */
+    margin-left: 7rem;
+    position: absolute;
+  }
+
+  .sub_container .client{
+     /* margin-left: 150px; */
+     margin-left: 9.7rem;
+     position: absolute;
+     
+     
+  }
+
+  .sub_container  .sel2{
+    height: 5vh;
+    width: 200px;
+    /* margin-left: 150px; */
+    margin-left: 9.7rem;
+    margin-top: 28px;
+    position: absolute;
+    
+  }
+
+
+ .sub_container .ptag{
+    /* margin-right: 180px;
+    margin-left: 10px; */
+    margin-right: 7.9rem;
+    margin-bottom: 12px;
+  }
+
+
+  .sub_container .ptaglab{
+   
+    margin-right: 0px;
+   }
+
+  .sub_container  .sel3{
+    height: 5vh;
+    width: 200px;
+    /* margin-right: 500px; */
+    margin-top: 0px;
+    margin-left: 33rem;
+  }
+
+
+  .sub_container .userstyle3{
+    margin-top:2.5rem;
+    display: flex;
+    margin-bottom: 1rem;
+  }
+
+  .sub_container .lab{
+    
+    justify-content: right;
+    /* margin-top: 1.5rem; */
+    color: black;
+    font-weight: bold;
+    }
+
+  .sub_container .lab1{
+    
+    margin-left: 5.5rem;
+    /* margin-top: 1.5rem; */
+    position: absolute;
+   
+  }
+
+  .sub_container .status{
+    height: 5vh;
+    width: 150px;
+    position: absolute;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 5.5rem;
+    /* margin-top: 80px; */
+    
+  }
+
+  .sub_container .labdate{
+  
+    /* margin-top: 1.5rem; */
+    margin-left: 20rem;
+    position: absolute;
+    width: 20%;
+  }
+
+  .sub_container .date{
+    height: 5vh;
+    width: 150px;
+    margin-top: 1rem;
+    position: absolute;
+    margin-left: 20rem;
+    border: 1px solid #aeaeae !important;
+    border-radius: 3px;
+    padding: 0.3rem;
+    border-width :0.1px;
+  }
+
+  .react-datepicker {
+
+    font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 0.8rem;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #aeaeae !important;
+    border-radius: 0.3rem;
+    display: inline-flex;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 250px;
+
+}
+
+  .sub_container .user2{
+    margin-top: 1.8rem !important;
+    display: flex;
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    
+    }
+  
+  .sub_container .lab2{
+    
+    position: absolute;
+    margin-bottom: 1rem;
+   
+   
+  }
+
+  .sub_container .user1{
+   
+    border: 1px solid;
+    width: 690px;
+    height: 12vh;
+}
+
+  .sub_container .assignMulti {
+    /* width: 150px; */
+    height: 4vh;
+    border-radius: 2px;
+    /* border: 1px solid lightblue; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    position: relative;
+  }
+
+  .txt2 {
+    margin-bottom: 0.5rem;
+  }
+
+ 
+  .sub_container .low{
+     margin-left: 2px;
+  }
+
+  .sub_container .medium{
+    margin-left: 100px;
+    
+  }
+
+
+   .assign {
+    height: 5vh;
+    width: 180px;
+    position: absolute;
+    margin-top: 1.8rem;
+  } 
+
+  /* .nextResParty{
+    height: 5vh;
+    width: 150px;
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+  }
+
+   */
+  
+
+  .sub_container .lab3{
+    font-weight: bold;
+    margin-top: 1px;
+    color: black;
+    /* margin-bottom: 10px; */
+    
+  }
+
+  .lab3 label{
+    font-size: 0.9rem;
+    margin-left: 12rem;
+  }
+
+  .txt4 {
+    margin-left: 7.5rem;
+    height: 0vh;
+  }
+
+  .sub_container .txt4 input{
+    height: 4vh;
+    border-radius: 2px;
+    border: 1px solid lightblue;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 7.5rem;
+  }
+  
+  
+  .sub_container .txt input{
+    width: 100%;
+    height: 5vh;
+    border-radius: 4px;
+    border: 1px solid lightblue;
+    margin-top: 0.4rem;
+  }
+
+  .sub_container .txt textarea{
+    width: 100%;
+    height: 10vh;
+    border-radius: 4px;
+    border: 1px solid lightblue;
+    resize: none;
+    margin-top: 0.4rem;
+  }
+  
+  
+  .sub_container .txt2 input{
+    width: 100%;
+    height: 12vh;
+    border-radius: 2px;
+    border: 1px solid lightblue;
+
+  }
+
+  .sub_container .add{
+    /* margin-left: 250px; */
+    margin-top: 20px;
+    height: 8vh;
+    width: 100%;
+    }
+  
+  .sub_container .file1{
+    background-color: whitesmoke;
+    color: black;
+    font-size: 0.9rem;
+    /* height: 5vh; */
+    width: 200px;
+    font-weight: bold;
+    margin-left: 2.5rem;
+    border-radius: 2px;
+    
+   }
+
+  .dragdrop{
+    width: 100%;
+  }
+
+  .sub_container .add2{
+    background-color: whitesmoke;
+    width: auto;
+    width: 750px;
+    color: black;
+    font-weight: bold;
+    font-size: 0.8rem;
+    height: 8vh;
+   }
+
+   .sub_container  .icon{
+    margin-top: 20px;
+    margin-left: 180px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+ }
+ 
+ .sub_container .icon2{
+  
+    margin-top: 0px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+   
+ }
+ 
+   
+button{
+    background-color: white;
+    border: 1px solid lightblue;
+   
+  }
+  
+  
+ .button1{
+  
+    font-weight: 1.2rem;
+    font-size: 0.8rem;
+    font: bold;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+    background-color: #0A387D ;
+    margin-top: 1.5rem;
+    margin-left: 220px;
+    height: 4vh;
+    width: 80px;
+    cursor: pointer;
+  }
+  
+  .button2{
+  
+    font-weight: 1.2rem;
+    font-size: 0.8rem;
+    font: bold;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+    background-color:  rgb(8, 102, 189);
+    margin-top: 1px;
+    height: 4vh;
+    width: 80px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .button3{
+  
+    font-weight: 1.2rem;
+    font-size: 0.8rem;
+    font: bold;
+    border-radius: 3px;
+    transition: 0.5s;
+    color: white;
+    border: 2px solid gray;
+    text-decoration: none;
+    background-color: gray;
+    margin-top: 2px;
+    margin-left: 20px;
+    height: 4vh;
+    width: 80px;
+    cursor: pointer;
+  }
+
+  
+  
+
+
+  .low1 button{
+    border: 1px solid lightblue;
+    border-radius: 2px;
+    width: 100px;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    cursor: pointer;
+    height: 4vh;
+   
+  }
+
+  .low{
+    position: absolute;
+    margin-left: 10px;
+   
+  }
+
+   .lowname{
+     margin-left: 18px;
+     margin-top: 4px;
+   }
+
+  
+  
+   .med2 button{
+    border: 1px solid lightblue;
+    border-radius: 2px;
+    width: 100px;
+    font-size: 0.8rem;
+    margin-left: 8px;
+    cursor: pointer;
+    height: 4vh;
+  }
+
+  .med{
+    position: absolute;
+    margin-left: 120px;
+    
+  }
+
+  .medname{
+    margin-left: 30px;
+    margin-top: 3px;
+  }
+
+  
+  .high2 button{
+    border: 1px solid lightblue;
+    border-radius: 2px;
+    width: 100px;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    cursor: pointer;
+    height: 4vh;
+  }
+
+  .high{
+    position: absolute;
+    margin-left: 230px;
+  }
+
+  .highname{
+    margin-left: 18px;
+    margin-top: 2px;
+  }
+
+
+
+  
+  /* Responsive Part */
+
+  @media screen  and (max-device-width: 800px) 
+ 
+{
+
+  
+
+  .create-new-ticket button{
+    width: 10px;
+    display: none;
+}
+
+.ticket-new{
+    width: 20px;
+    height: 1vh;
+    font-size: 0.1rem;
+    display: none;
+}
+
+
+
+
+.accordian{
+    margin-left: 0px;
+    display: none;
+  }
+
+
+  .suggestion{
+    display: none;
+    font-size: 0.7px;
+  }
+
+  .MuiAccordionSummary-root {
+    padding-left: 15px !important;
+    padding-right: 7px !important ;
+  }
+
+
+.maincontainer{
+  margin-left: 0px;
+  /* height: 100vh; */
+  width: 100%;
+  margin-right: 0rem;
+  
+}
+
+.container_2{
+  
+  /* height: 100vh; */
+  margin-left: 0px;
+  margin-top: 4rem;
+  width: 100%;
+  
+ 
+}
+
+ .sub_container{
+  
+    width: 100%;
+    padding: 5px 35px 15px 15px;
+    border-radius: 10px;
+    background: white;
+    height: auto;
+    margin-bottom: 5px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.2rem;
+   
+    
+  }
+  
+
+
+/* 
+  .sub_container .title{
+      margin-top: 1px;
+    
+   }
+
+  .sub_container label{
+    font-weight: bold;
+    justify-content: right;
+    margin-top: 10px;
+   } 
+
+   .sub_container .txt input{
+     height: 5vh;
+     
+   } */
+/* 
+  .sub_container .user{
+    margin-top: 1px;
+    position: absolute;
+    
+  }
+
+  .user{
+    margin-bottom: 10px;
+  }
+
+  .sub_container .select1{
+    width: 100%;
+  }
+  
+ .sub_container .sel{
+    height: 5vh;
+    width: 760px;
+    
+    justify-content: center;
+    margin-top: 30px;
+   
+  }
+
+  .sub_container .clientstyle{
+    margin-top: 80px;
+    margin-left: 0px;
+    width: 90%;
+    
+    height: 45vh;
+  }
+  
+  .sub_container .client{
+    margin-top: 20px;
+    margin-left: 0px;
+   
+  }
+
+   .sub_container  .sel2{
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 760px;
+    height: 5vh;
+    
+  }
+  
+  .sub_container .ptag{
+    margin-top: 190px;
+    position: absolute;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .sub_container .ptaglab{
+    margin-right: 500px;
+    margin-top: 180px;
+   
+    
+ }
+   
+  .sub_container .sel3{
+   margin-left: 1px;
+   width: 760px;
+   margin-top: 2px;
+   height: 5vh;
+  
+  }
+  
+
+  .sub_container .userstyle3{
+    margin-top: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+    
+  }
+
+  
+
+  .sub_container .low {
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 1px;
+    width: 5%;
+    height: 5vh;
+    
+  }
+
+  
+
+  .sub_container .medium {
+    margin-left: 220px;
+    margin-top: 1px;
+    width: 5%;
+    height: 5vh;
+   
+  }
+
+  
+  .sub_container  .high{
+    margin-left: 450px;
+    margin-top: 1px;
+    width: 5%;
+    height: 5vh;
+    
+  }
+
+  */
+
+  /* .sub_container .userstyle4{
+    display: flex;
+    margin-top: 150px;
+    
+    margin-left: 2px;
+    margin-right: 500px;
+    position: absolute;
+    
+  }
+
+ .userstyle3 .lab1{
+    margin-top: 1px;
+    margin-left: 1px;
+  
+  }
+
+ .userstyle3 .status{
+    margin-top: 20px;
+    margin-left: 1px;
+    width: 300px;
+    height: 5vh;
+    
+  }
+
+  .sub_container .labdate{
+    margin-left: 450px;
+    margin-top: 0px;
+    width: 20%;
+    
+  }
+
+  .sub_container .date{
+    margin-left: 450px;
+    margin-top: 20px;
+    width: 300px;
+    height: 5vh;
+    border: 1px solid lightblue ;
+  }
+  
+  .sub_container .user2{
+    margin-top: 120px;
+    position: absolute;
+    width: 90%;
+  }
+
+  .sub_container .lab2{
+    margin-top: 60px;
+    width: 80px;
+  }
+
+  
+ .sub_container .assign {
+     margin-top: 80px;
+     width: 760px;
+     height: 5vh;
+     position: absolute;
+    
+   }
+
+   
+   .sub_container .lab3{
+     margin-top: 140px;
+     margin-left: 1px;
+     width: 400px;
+     position: absolute;
+   }
+
+   .lab3 label{
+     margin-left: 1px;
+     width: 100%;
+   }
+
+   .sub_container .txt4{
+     margin-top: 5px;
+     margin-left: 1px;
+   
+     width: 650px;
+     height: 5vh;
+    
+   }
+
+
+   .sub_container .nextResParty{
+    margin-top: 1px;
+    margin-left: 1px;
+  
+    width: 760px;
+    height: 5vh;
+   
+  }
+
+
+   .sub_container .add{
+   
+    margin-top: 20px;
+    position: absolute;
+    width: 300px;
+    margin-left: 0px;
+   
+   
+  }
+    
+
+  .sub_container .file1{
+    margin-top: 5px;
+    width: 760px;
+    height: 8vh;
+    margin-left: 0px;
+   
+    
+  }
+
+ 
+  .sub_container .add2{
+    width: 760px;
+    margin-top: 340px;
+    height: 8vh;
+  }
+
+  .sub_container .buttonstyle{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+   .sub_container .button1{
+     margin-left: 220px;
+     margin-top: 30px;
+     height: 4vh;
+     width: 80px;
+   }
+
+   .sub_container .button2{
+     height: 4vh;
+     width: 80px;
+
+   }
+
+   .sub_container .button3{
+    height: 4vh;
+    width: 80px;
+  } */
+}
+
+
+ @media screen  and (max-device-width: 768px) 
+ 
+{
+
+  .create-new-ticket button{
+    display: none;
+}
+
+.ticket-new{
+  display: none;
+}
+
+
+
+
+.accordian{
+    display: none;
+  }
+
+
+  .suggestion{
+    display: none;
+  }
+
+.maincontainer{
+  margin-left: 0px;
+  width: 100%;
+  /* height: 100vh; */
+}
+
+.container_2{
+  /* margin-top: 5rem; */
+  /* height: auto; */
+  margin-left: 0px;
+  width: 100%;
+  
+}
+
+ .sub_container{
+  
+    width: calc(100% - 2rem);
+    padding: 5px 35px 15px 15px;
+    border-radius: 10px;
+    background: white;
+    /* height: auto; */
+    margin-bottom: 5px;
+    margin-left:1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+   
+    
+  }
+  .sub_container .user {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.sub_container .select1 {
+  width: calc(100% - 82px);
+}
+.sub_container .sel {
+  height: 5vh;
+  width:100%;
+  justify-content: center;
+  margin-top: 30px;
+  border-color: lightblue;
+}
+.sub_container .clientstyle{
+  margin-top: 90px;
+  margin-left: 0px;
+  width: calc(100% - 82px);
+  height: 45vh;
+}
+.sub_container .client{
+  margin-top: 15px;
+  margin-left: 0px;
+ 
+}
+.sub_container  .sel2{
+  margin-top: 45px;
+  margin-left: 0px;
+  width: 100%;
+  height: 5vh;
+  
+}
+.sub_container .ptag{
+  margin-top: 205px;
+  position: absolute;
+  
+  margin-left: 0px;
+}
+.sub_container .ptaglab{
+  margin-top: 210px;
+ 
+  
+}
+.sub_container .sel3{
+  margin-left: 1px;
+  width:100%;
+  margin-top: 2px;
+  height: 5vh;
+ 
+ }
+ .sub_container .userstyle3{
+  margin-top: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.sub_container .lab {
+    justify-content: start;
+    margin-top: 1.5rem;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}
+
+.sub_container .low {
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+  
+}
+.sub_container .medium {
+  margin-left: 220px;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+ 
+}
+
+
+.sub_container  .high{
+  margin-left: 450px;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+  
+}
+.sub_container .userstyle4{
+  display: flex;
+  margin-top: 100px;
+  
+  margin-left: 2px;
+  margin-right: 500px;
+  position: absolute;
+  
+}
+
+.userstyle3 .lab1{
+  margin-top: 1px;
+  margin-left: 1px;
+
+}
+.userstyle3 label{
+ 
+  display: flex;
+  /* flex-wrap: nowrap; */
+  margin-right: 5rem;
+}
+.userstyle3 .status{
+  margin-top: 30px;
+  margin-left: 1px;
+  width: 200px;
+  height: 5vh;
+  
+}
+
+.sub_container .labdate{
+  margin-left: 300px;
+  margin-top: 0px;
+  width: 80px;
+  
+}
+.sub_container .date{
+  margin-left: 300px;
+  margin-top: 15px;
+  width: 200px;
+  height: 5vh;
+  border: 1px solid lightblue ;
+}
+
+.sub_container .user2{
+  margin-top: 70px !important;
+  position: absolute;
+  width: calc(100% - 82px);
+}
+
+.sub_container .lab2{
+  margin-top: 25px;
+  width: 80px;
+}
+
+.sub_container .assignMulti {
+  /* width: 150px; */
+  height: 4vh !important;
+  border-radius: 2px;
+  border: 1px solid lightblue;
+  margin-top: 35px;
+  /* margin-bottom: 20px; */
+  position: relative;
+}
+
+.sub_container .assign {
+   margin-top: 90px;
+   width:100%;
+   height: 5vh;
+   position: absolute;
+  
+ }
+ .sub_container .lab3{
+  margin-top: 140px;
+  margin-left: 1px;
+  width: 400px;
+  position: absolute;
+}
+.sub_container .txt4 {
+  margin-top: 5px;
+  margin-left: 1px;
+  width: 650px;
+  height: 5vh;
+}
+.sub_container .txt4 input {
+  height: 4vh;
+  border-radius: 2px;
+  border: 1px solid lightblue;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 0rem;
+  width: 100%;
+}
+
+/* .nextResParty {
+  height: 5vh;
+  width: 100%;
+  position: absolute;
+  margin-top: 0.5rem;
+  margin-left: 0rem;
+} */
+.lab3 label{
+ 
+  margin-left: 1px;
+  font-size: 0.9rem;
+  width: 95%;
+}
+.sub_container .add {
+  margin-left: 0px;
+  margin-top: 40px;
+  height: 5vh;
+  width: 640px;
+  
+}
+.dragdrop {
+  width: 100%;
+}
+.sub_container .add2{
+  width:auto;
+  min-width: 670px;
+  margin-top: 190px;
+  height: 7vh;
+}
+.sub_container .file1{
+  
+  margin-top: 5px;
+  width: 640px;
+  height: 7vh;
+  margin-left: 0rem;
+  
+}
+
+.sub_container .buttonstyle{
+  width: 80%;
+  /* margin-left: 20px; */
+  /* margin-bottom: 20px; */
+  
+}
+
+}
+
+
+@media screen  and (max-device-width: 540px) 
+ 
+{
+
+  .create-new-ticket button{
+    display: none;
+}
+
+.ticket-new{
+  display: none;
+}
+
+
+.accordian{
+    display: none;
+  }
+
+  .suggestion{
+    display: none;
+  }
+
+.maincontainer{
+  margin-left: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.container_2{
+  margin-top: 3.5rem;
+  height: auto;
+  margin-left: 0px;
+  width: 100%;
+  
+}
+
+ .sub_container{
+  
+    width: calc(100% - 2rem);
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: white;
+    height: auto;
+    margin-bottom: 5px;
+    margin-left:1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+   
+    
+  }
+
+  .sub_container .txt textarea {
+    width: 100%;
+    height: 14vh;
+    border-radius: 4px;
+    border: 1px solid lightblue;
+    resize: none;
+    margin-top: 0.4rem;
+}
+
+
+  .sub_container .user {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.sub_container .select1 {
+  width: calc(100% - 4rem);
+}
+.sub_container .sel {
+  height: 5vh;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+  border-color: lightblue;
+}
+.sub_container .clientstyle{
+  margin-top: 80px;
+  margin-left: 0px;
+  width: calc(100% - 4rem);
+  height: 45vh;
+}
+.sub_container .client{
+  margin-top: 15px;
+  margin-left: 0px;
+ 
+}
+.sub_container  .sel2{
+  margin-top: 45px;
+  margin-left: 0px;
+  width: 100%;
+  height: 5vh;
+  
+}
+.sub_container .ptag{
+  margin-top: 190px;
+  position: absolute;
+  
+  margin-left: 0px;
+}
+.sub_container .ptaglab{
+  margin-top: 195px;
+ 
+  
+}
+.sub_container .sel3{
+  margin-left: 1px;
+  width:100%;
+  margin-top: 2px;
+  height: 5vh;
+ 
+ }
+ .sub_container .userstyle3{
+  margin-top: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.sub_container .lab {
+    justify-content: start;
+    margin-top: 1.5rem;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}
+
+.sub_container .low {
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+  
+}
+.sub_container .medium {
+  margin-left: 220px;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+ 
+}
+
+
+.sub_container  .high{
+  margin-left: 450px;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+  
+}
+.sub_container .userstyle4{
+  display: flex;
+  margin-top: 100px;
+  
+  margin-left: 2px;
+  margin-right: 500px;
+  position: absolute;
+  
+}
+
+.userstyle3 .lab1{
+  margin-top: 1px;
+  margin-left: 1px;
+
+}
+.userstyle3 label{
+ 
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 4rem;
+}
+.userstyle3 .status{
+  margin-top: 30px;
+  margin-left: 1px;
+  width: 150px;
+  height: 5vh;
+  
+}
+
+.sub_container .labdate{
+  margin-left: 220px;
+  margin-top: 0px;
+  width: 80px;
+  
+}
+.sub_container .date{
+  margin-left: 220px;
+  margin-top: 15px;
+  width: 150px;
+  height: 5vh;
+  border: 1px solid lightblue ;
+}
+
+.react-datepicker {
+
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  display: inline-flex;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 140px;
+
+}
+
+.sub_container .user2{
+  /* margin-top: 120px; */
+  position: absolute;
+  width: 85%;
+}
+
+.sub_container .lab2{
+  /* margin-top: 60px; */
+  width: 80px;
+}
+
+
+.sub_container .assign {
+   margin-top: 90px;
+   width:50%;
+   height: 5vh;
+   position: absolute;
+  
+ }
+ .sub_container .lab3{
+  margin-top: 140px;
+  margin-left: 1px;
+  width: 400px;
+  position: absolute;
+}
+.sub_container .txt4 {
+  margin-top: 5px;
+  margin-left: 1px;
+  width: 450px;
+  height: 5vh;
+}
+.lab3 label{
+ 
+  margin-left: 1px;
+  font-size: 0.9rem;
+  width: 95%;
+}
+.sub_container .add {
+  margin-left: 0px;
+  margin-top: 40px;
+  height: 5vh;
+  width: 450px;
+  
+}
+.sub_container .add2{
+  width: 100%;
+  min-width: 460px;
+  height: 7vh;
+}
+.sub_container .file1{
+  
+  margin-top: 5px;
+  width: 450px;
+  height: 7vh;
+  margin-left: 0rem;
+  
+}
+
+.sub_container .buttonstyle{
+  width: 85%;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  
+}
+.button1 {
+  font-weight: 1.2rem;
+  font-size: 0.6rem;
+  font: bold;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+  background-color: #0A387D;
+  margin-top: 1.5rem;
+  height: 4vh;
+  width: 60px;
+  margin-left: 85px;
+  cursor: pointer;
+}
+.button2 {
+  font-weight: 1.2rem;
+  font-size: 0.6rem;
+  font: bold;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(8, 102, 189);
+  margin-top: 1px;
+  height: 4vh;
+  width: 60px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.button3 {
+  font-weight: 1.2rem;
+  font-size: 0.6rem;
+  font: bold;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: white;
+  border: 2px solid gray;
+  text-decoration: none;
+  background-color: gray;
+  margin-top: 2px;
+  margin-left: 20px;
+  height: 4vh;
+  width: 60px;
+  cursor: pointer;
+}
+}
+
+@media screen  and (max-device-width: 414px) 
+ 
+{
+
+  .create-new-ticket button{
+    display: none;
+}
+
+.ticket-new{
+  display: none;
+}
+
+
+.accordian{
+    display: none;
+  }
+
+  .suggestion{
+    display: none;
+  }
+
+.maincontainer{
+  margin-left: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.container_2{
+  margin-top: 3rem;
+  height: auto;
+  margin-left: 0px;
+  width: 100%;
+  
+}
+
+ .sub_container{
+  
+    width: calc(100% - 2rem);
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: white;
+    height: auto;
+    margin-bottom: 5px;
+    margin-left:1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+   
+    
+  }
+  .sub_container .user {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.sub_container .select1 {
+  width: calc(100% - 4rem);
+}
+.sub_container .sel {
+  height: 5vh;
+  width: 100%;
+  justify-content: center;
+  margin-top: 26px;
+  border-color: lightblue;
+}
+.sub_container .clientstyle{
+  margin-top: 65px;
+  margin-left: 0px;
+  width: calc(100% - 4rem);
+  height: 45vh;
+}
+.sub_container .client{
+  margin-top: 15px;
+  margin-left: 0px;
+ 
+}
+.sub_container  .sel2{
+  margin-top: 40px;
+  margin-left: 0px;
+  width: 100%;
+  height: 5vh;
+  
+}
+.sub_container .ptag{
+  margin-top: 160px;
+  position: absolute;
+  
+  margin-left: 0px;
+}
+.sub_container .ptaglab{
+  margin-top: 165px;
+ 
+  
+}
+.sub_container .sel3{
+  margin-left: 1px;
+  width:100%;
+  margin-top: 2px;
+  height: 5vh;
+ 
+ }
+ .sub_container .userstyle3{
+  margin-top: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.sub_container .lab {
+    justify-content: start;
+    margin-top: 1.5rem;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}
+
+.sub_container .low {
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+  
+}
+.sub_container .medium {
+  margin-left: 220px;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+ 
+}
+
+
+.sub_container  .high{
+  margin-left: 450px;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+  
+}
+.sub_container .userstyle4{
+  display: flex;
+  margin-top: 100px;
+  
+  margin-left: 2px;
+  margin-right: 300px;
+  position: absolute;
+  
+}
+
+.userstyle3 .lab1{
+  margin-top: 1px;
+  margin-left: 1px;
+
+}
+.userstyle3 label{
+ 
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 2rem;
+}
+.userstyle3 .status{
+  margin-top: 30px;
+  margin-left: 1px;
+  width: 100px;
+  height: 5vh;
+  
+}
+
+.sub_container .labdate{
+  margin-left: 200px;
+  margin-top: 0px;
+  width: 80px;
+  
+}
+.sub_container .date{
+  margin-left: 220px;
+  margin-top: 15px;
+  width: 100px;
+  height: 5vh;
+  border: 1px solid lightblue ;
+}
+
+.react-datepicker {
+
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  display: inline-flex;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 120px;
+
+}
+
+.sub_container .user2{
+  margin-top: 80px !important;
+  position: absolute;
+  /* width: 90%; */
+  
+}
+
+.sub_container .lab2{
+  margin-top: 10px;
+  width: 80px;
+}
+.sub_container .assignMulti {
+  
+  height: 4vh !important;
+  border-radius: 2px;
+  border: 0px solid none;
+  margin-top: 20px;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.sub_container .assign {
+   margin-top: 90px;
+   width:90%;
+   height: 5vh;
+   position: absolute;
+  
+ }
+ .sub_container .lab3{
+  margin-top: 140px;
+  margin-left: 1px;
+  width: 300px;
+  position: absolute;
+}
+.sub_container .txt4 {
+  margin-top: 5px;
+  margin-left: 1px;
+  width: 300px;
+  height: 5vh;
+}
+.sub_container .txt4 input {
+  height: 4vh;
+  border-radius: 2px;
+  border: 1px solid lightblue;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 0rem;
+}
+.lab3 label{
+ 
+  margin-left: 1px;
+  font-size: 0.9rem;
+  width: 90%;
+}
+.sub_container .add {
+  margin-left: 0px;
+  margin-top: 40px;
+  height: 5vh;
+  width: 300px;
+  
+}
+.sub_container .add2{
+  min-width:325px;
+  width: 100%;
+  margin-top: 190px;
+  height: 7vh;
+}
+.sub_container .file1{
+  
+  margin-top: 5px;
+  width: 300px;
+  height: 5vh;
+  margin-left: 0rem;
+  
+}
+
+.sub_container .buttonstyle{
+  width: 90%;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  
+}
+.button1 {
+  font-weight: 1.2rem;
+  font-size: 0.6rem;
+  font: bold;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+  background-color: #0A387D;
+  margin-top: 20px;
+  margin-left: 50px;
+  height: 4vh;
+  width: 60px;
+  cursor: pointer;
+}
+
+.button2 {
+  font-weight: 1.2rem;
+  font-size: 0.6rem;
+  font: bold;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(8, 102, 189);
+  margin-top: 1px;
+  height: 4vh;
+  width: 60px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.button3 {
+  font-weight: 1.2rem;
+  font-size: 0.6rem;
+  font: bold;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: white;
+  border: 2px solid gray;
+  text-decoration: none;
+  background-color: gray;
+  margin-top: 2px;
+  margin-left: 10px;
+  height: 4vh;
+  width: 60px;
+  cursor: pointer;
+}
+
+}
+
+ 
+@media screen  and (max-device-width: 375px) 
+ 
+{
+
+  .create-new-ticket button{
+    display: none;
+}
+
+.ticket-new{
+  display: none;
+}
+
+
+.accordian{
+    display: none;
+  }
+
+  .suggestion{
+    display: none;
+  }
+
+.maincontainer{
+  margin-left: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.container_2{
+  margin-top: 3rem;
+  height: auto;
+  margin-left: 0px;
+  width: 100%;
+  
+}
+
+ .sub_container{
+  
+    width: calc(100% - 2rem);
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: white;
+    height: auto;
+    margin-bottom: 5px;
+    margin-left:1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+   
+    
+  }
+  .sub_container .user {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.sub_container .select1 {
+  width: calc(100% - 4rem);
+}
+.sub_container .sel {
+  height: 5vh;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+  border-color: lightblue;
+}
+.sub_container .clientstyle{
+  margin-top: 80px;
+  margin-left: 0px;
+  width: calc(100% - 4rem);
+  height: 45vh;
+}
+.sub_container .client{
+  margin-top: 15px;
+  margin-left: 0px;
+ 
+}
+.sub_container  .sel2{
+  margin-top: 45px;
+  margin-left: 0px;
+  width: 100%;
+  height: 5vh;
+  
+}
+.sub_container .ptag{
+  margin-top: 190px;
+  position: absolute;
+  
+  margin-left: 0px;
+}
+.sub_container .ptaglab{
+  margin-top: 195px;
+ 
+  
+}
+.sub_container .sel3{
+  margin-left: 1px;
+  width:100%;
+  margin-top: 2px;
+  height: 5vh;
+ 
+ }
+ .sub_container .userstyle3{
+  margin-top: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.sub_container .lab {
+    justify-content: start;
+    margin-top: 1.5rem;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}
+
+.sub_container .low {
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+  
+}
+.sub_container .medium {
+  margin-left: 220px;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+ 
+}
+
+
+.sub_container  .high{
+  margin-left: 450px;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+  
+}
+.sub_container .userstyle4{
+  display: flex;
+  margin-top: 100px;
+  
+  margin-left: 2px;
+  margin-right: 300px;
+  position: absolute;
+  
+}
+
+.userstyle3 .lab1{
+  margin-top: 1px;
+  margin-left: 1px;
+
+}
+.userstyle3 label{
+ 
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 1rem;
+}
+.userstyle3 .status{
+  margin-top: 30px;
+  margin-left: 1px;
+  width: 100px;
+  height: 5vh;
+  cursor: pointer;
+  
+}
+
+.sub_container .labdate{
+  margin-left: 170px;
+  margin-top: 0px;
+  width: 80px;
+  
+}
+.sub_container .date{
+  margin-left: 180px;
+  margin-top: 15px;
+  width: 100px;
+  height: 5vh;
+  border: 1px solid lightblue ;
+}
+
+.react-datepicker {
+
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  display: inline-flex;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 80px;
+
+}
+
+.sub_container .user2{
+  margin-top: 120px;
+  position: absolute;
+  /* width: 90%; */
+}
+
+.sub_container .lab2{
+  /* margin-top: 40px; */
+  width: 80px;
+}
+
+
+.sub_container .assign {
+   margin-top: 90px;
+   width:90%;
+   height: 5vh;
+   position: absolute;
+  
+ }
+ .sub_container .lab3{
+  margin-top: 140px;
+  margin-left: 1px;
+  width: 300px;
+  position: absolute;
+}
+.sub_container .txt4 {
+  margin-top: 5px;
+  margin-left: 1px;
+  width: 300px;
+  height: 5vh;
+}
+.sub_container .txt4 input {
+  height: 4vh;
+  border-radius: 2px;
+  border: 1px solid lightblue;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 0rem;
+}
+.lab3 label{
+ 
+  margin-left: 1px;
+  font-size: 0.9rem;
+  width: 90%;
+}
+.sub_container .add {
+  margin-left: 0px;
+  margin-top: 40px;
+  height: 5vh;
+  width: 260px;
+  
+}
+.sub_container .add2{
+  min-width:310px;
+  max-width: 100%;
+  /* margin-top: 300px; */
+  height: 7vh;
+}
+.sub_container .file1{
+  
+  margin-top: 5px;
+  width: 260px;
+  height: 5vh;
+  margin-left: 0rem;
+  
+}
+
+.sub_container .buttonstyle{
+  width: 90%;
+  margin-left: 0px;
+  /* margin-bottom: 20px; */
+  
+}
+.button1 {
+  font-weight: 1.2rem;
+  font-size: 0.6rem;
+  font: bold;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+  background-color: #0A387D;
+  margin-top: 20px;
+  margin-left: 45px;
+  height: 4vh;
+  width: 60px;
+  cursor: pointer;
+}
+
+.button2 {
+  font-weight: 1.2rem;
+  font-size: 0.6rem;
+  font: bold;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(8, 102, 189);
+  margin-top: 1px;
+  height: 4vh;
+  width: 60px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.button3 {
+  font-weight: 1.2rem;
+  font-size: 0.8rem;
+  font: bold;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: white;
+  border: 2px solid gray;
+  text-decoration: none;
+  background-color: gray;
+  margin-top: 2px;
+  margin-left: 10px;
+  height: 4vh;
+  width: 60px;
+  cursor: pointer;
+}
+}
+
+       
+
+ /* @media screen and (max-device-width: 280px) {
+ 
+
+  
+   
+   .sub_container{
+   
+     width: 250px;
+     padding: 5px 10px;
+     border-radius: 10px;
+     background: white;
+     height: 180vh;
+     margin-bottom: 5px;
+     margin-left: 10px;
+     margin-top: 0px;
+   }
+ 
+ 
+   .sub_container .title{
+       margin-top: 1px;
+     
+    }
+ 
+    .sub_container .lab {
+      justify-content: start;
+      margin-top: 3rem;
+      color: black;
+      font-weight: bold;
+      width: 100%;
+  }
+    .sub_container .txt input{
+      height: 5vh;
+      width: 230px;
+    }
+ 
+   .sub_container .user{
+     margin-top: 1px;
+     position: absolute;
+     
+   }
+ 
+   .sub_container .select1{
+     width: 280px;
+   }
+   
+  .sub_container .sel{
+     height: 5vh;
+     width: 230px;
+     
+     justify-content: center;
+     margin-top: 30px;
+    
+   }
+ 
+   .sub_container .clientstyle{
+     margin-top: 80px;
+     margin-left: 0px;
+   
+     height: 45vh;
+   }
+   
+   .sub_container .client{
+     margin-top: 20px;
+     margin-left: 0px;
+    
+   }
+ 
+    .sub_container  .sel2{
+     margin-top: 40px;
+     margin-left: 0px;
+     width: 230px;
+     height: 5vh;
+     
+   }
+   
+   .sub_container .ptag{
+     margin-top: 190px;
+     position: absolute;
+    
+     margin-left: 0px;
+   }
+ 
+   .sub_container .ptaglab{
+     margin-right: 500px;
+     margin-top: 180px;
+    
+     
+  }
+    
+   .sub_container .sel3{
+    margin-left: 1px;
+    width: 230px;
+    margin-top: 20px;
+    height: 5vh;
+   
+   }
+   
+ 
+   .sub_container .userstyle3{
+     margin-top: 240px;
+     width: 100%;
+     
+   }
+ 
+   .sub_container .low {
+    margin-left: 1px;
+    position: absolute;
+    margin-top: 1px;
+    width: 5%;
+    height: 5vh;
+    
+  }
+
+  
+
+  .sub_container .medium {
+    margin-left: 70px;
+    margin-top: 1px;
+    width: 5%;
+    height: 5vh;
+   
+  }
+
+  
+  .sub_container  .high{
+    margin-left: 160px;
+    margin-top: 1px;
+    width: 5%;
+    height: 5vh;
+    
+  }
+ 
+   .sub_container .userstyle4{
+     display: flex;
+     margin-top: 150px;
+     
+     margin-left: 2px;
+     margin-right: 500px;
+     position: absolute;
+     width: 100%;
+   }
+ 
+  .userstyle3 .lab1{
+     margin-top: 1px;
+     margin-left: 1px;
+   
+   }
+ 
+  .userstyle3 .status{
+     margin-top: 20px;
+     margin-left: 1px;
+     width: 100px;
+     height: 5vh;
+     
+   }
+ 
+   .sub_container .labdate{
+     margin-left: 120px;
+     margin-top: 0px;
+     width: 80px;
+     
+   }
+ 
+   .sub_container .date{
+     margin-left: 120px;
+     margin-top: 20px;
+     width: 100px;
+     height: 5vh;
+     border: 1px solid lightblue ;
+   }
+   
+   .sub_container .user2{
+     margin-top: 120px;
+     position: absolute;
+     width: 90%;
+   }
+ 
+   .sub_container .assign {
+    margin-top: 80px;
+    width: 230px;
+    height: 5vh;
+    position: absolute;
+   
+  }
+
+  
+  .sub_container .lab3{
+    margin-top: 140px;
+    margin-left: 1px;
+    width: 400px;
+    position: absolute;
+  }
+
+  
+
+  
+.sub_container .nextResParty{
+   margin-top: 1px;
+   margin-left: 1px;
+ 
+   width: 230px;
+   height: 5vh;
+  
+ }
+    .sub_container .add{
+    
+     margin-top: 50px;
+     position: absolute;
+    
+     margin-left: 1px;
+    
+    
+   }
+     
+ 
+   .sub_container .file1{
+     margin-top: 10px;
+     width: 230px;
+     height: 8vh;
+     margin-left: 0px;
+    
+     
+   }
+ 
+  
+   .sub_container .add2{
+     width: 230px;
+     margin-top: 370px;
+     height: 8vh;
+   }
+ 
+   .sub_container .buttonstyle{
+     margin-top: 10px;
+     margin-left: 5px;
+     
+ }
+ 
+    .sub_container .button1{
+      margin-left: 5px;
+      margin-top: 30px;
+      height: 4vh;
+      width: 60px;
+    }
+ 
+    .sub_container .button2{
+      height: 4vh;
+      width: 60px;
+ 
+    }
+ 
+    .sub_container .button3{
+     height: 4vh;
+     width: 60px;
+   }
+ } */
+
+
+ @media screen  and (max-device-width: 280px) 
+ 
+{
+
+  .create-new-ticket button{
+    display: none;
+}
+
+.ticket-new{
+  display: none;
+}
+
+
+.accordian{
+    display: none;
+  }
+
+  .suggestion{
+    display: none;
+  }
+
+.maincontainer{
+  margin-left: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.container_2{
+  margin-top: 3rem;
+  height: auto;
+  margin-left: 0px;
+  width: 100%;
+  
+}
+
+ .sub_container{
+  
+    width: calc(100% - 2rem);
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: white;
+    height: auto;
+    margin-bottom: 5px;
+    margin-left:1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+   
+    
+  }
+  .sub_container .user {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.sub_container .select1 {
+  width: calc(100% - 4rem);
+}
+.sub_container .sel {
+  height: 5vh;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+  border-color: lightblue;
+}
+.sub_container .clientstyle{
+  margin-top: 80px;
+  margin-left: 0px;
+  width: calc(100% - 4rem);
+  height: 45vh;
+}
+.sub_container .client{
+  margin-top: 15px;
+  margin-left: 0px;
+ 
+}
+.sub_container  .sel2{
+  margin-top: 45px;
+  margin-left: 0px;
+  width: 100%;
+  height: 5vh;
+  
+}
+.sub_container .ptag{
+  margin-top: 190px;
+  position: absolute;
+  
+  margin-left: 0px;
+}
+.sub_container .ptaglab{
+  margin-top: 195px;
+ 
+  
+}
+.sub_container .sel3{
+  margin-left: 1px;
+  width:100%;
+  margin-top: 2px;
+  height: 5vh;
+ 
+ }
+ .sub_container .userstyle3{
+  margin-top: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.sub_container .lab {
+    justify-content: start;
+    margin-top: 1.5rem;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+}
+
+.sub_container .low {
+  margin-left: 20px;
+  position: absolute;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+  
+}
+.sub_container .medium {
+  margin-left: 220px;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+ 
+}
+
+
+.sub_container  .high{
+  margin-left: 450px;
+  margin-top: 1px;
+  width: 5%;
+  height: 5vh;
+  
+}
+.sub_container .userstyle4{
+  display: flex;
+  margin-top: 100px;
+  
+  margin-left: 2px;
+  margin-right: 200px;
+  position: absolute;
+  
+}
+
+.userstyle3 .lab1{
+  margin-top: 1px;
+  margin-left: 1px;
+
+}
+.userstyle3 label{
+ 
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: 0rem;
+}
+.userstyle3 .status{
+  margin-top: 30px;
+  margin-left: 1px;
+  width: 100px;
+  height: 5vh;
+  cursor: pointer;
+  
+}
+
+.sub_container .labdate{
+  margin-left: 130px;
+  margin-top: 0px;
+  width: 80px;
+  
+}
+.sub_container .date{
+  margin-left: 130px;
+  margin-top: 15px;
+  width: 100px;
+  height: 5vh;
+  border: 1px solid lightblue ;
+}
+
+.react-datepicker {
+
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #aeaeae;
+  border-radius: 0.3rem;
+  display: inline-flex;
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 10px;
+
+}
+
+.sub_container .user2{
+  margin-top: 120px;
+  position: absolute;
+  /* width: 90%; */
+}
+
+.sub_container .lab2{
+  /* margin-top: 40px; */
+  width: 80px;
+}
+
+
+.sub_container .assign {
+   margin-top: 90px;
+   width:90%;
+   height: 5vh;
+   position: absolute;
+  
+ }
+ .sub_container .lab3{
+  margin-top: 140px;
+  margin-left: 1px;
+  width: 300px;
+  position: absolute;
+}
+.sub_container .txt4 {
+  margin-top: 5px;
+  margin-left: 1px;
+  width: 300px;
+  height: 5vh;
+}
+.sub_container .txt4 input {
+  height: 4vh;
+  border-radius: 2px;
+  border: 1px solid lightblue;
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 0rem;
+}
+.lab3 label{
+ 
+  margin-left: 1px;
+  font-size: 0.9rem;
+  width: 90%;
+}
+.sub_container .add {
+  margin-left: 0px;
+  margin-top: 40px;
+  height: 5vh;
+  width: 260px;
+  
+}
+.sub_container .add2{
+  min-width:210px;
+  max-width: 100%;
+  /* margin-top: 300px; */
+  height: 7vh;
+}
+.sub_container .file1{
+  
+  margin-top: 5px;
+  width: 260px;
+  height: 5vh;
+  margin-left: 0rem;
+  
+}
+
+.sub_container .buttonstyle{
+  width: 90%;
+  margin-left: 0px;
+  /* margin-bottom: 20px; */
+  
+}
+.button1 {
+  font-weight: 1.2rem;
+  font-size: 0.6rem;
+  font: bold;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+  background-color: #0A387D;
+  margin-top: 20px;
+  margin-left: 5px;
+  height: 4vh;
+  width: 60px;
+  cursor: pointer;
+}
+
+.button2 {
+  font-weight: 1.2rem;
+  font-size: 0.6rem;
+  font: bold;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(8, 102, 189);
+  margin-top: 1px;
+  height: 4vh;
+  width: 60px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.button3 {
+  font-weight: 1.2rem;
+  font-size: 0.8rem;
+  font: bold;
+  border-radius: 3px;
+  transition: 0.5s;
+  color: white;
+  border: 2px solid gray;
+  text-decoration: none;
+  background-color: gray;
+  margin-top: 2px;
+  margin-left: 5px;
+  height: 4vh;
+  width: 60px;
+  cursor: pointer;
+}
+}

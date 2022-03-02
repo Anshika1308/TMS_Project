@@ -1,0 +1,23 @@
+.edit-save-btn {
+    margin-top: 15px !important;
+    /* font-size: small !important; */
+    color: white !important;
+    background-color: #0A387D !important;
+    height: 30px !important;
+}
+
+.edit-cancel-btn {
+    margin-top: 15px !important;
+    color: white !important;
+    background-color: rgb(168, 52, 52) !important;
+    height: 30px !important;
+    margin-left: 5px !important;
+}
+
+.selnextParty {
+    margin-top: 0.2rem;
+    width: 100%;
+    font-size: 0.7rem !important;
+    height: 4.5vh;
+    background-color: #fff
+}

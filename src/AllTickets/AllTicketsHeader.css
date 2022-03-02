@@ -1,0 +1,408 @@
+.all-tickets-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    height: 50px;
+    width: calc(100% - 16rem);
+    align-content: center;
+    margin-left: 15rem;
+    z-index: 3;
+    margin-top: 5px;
+    margin-right: 1rem;
+    background-color: white; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.head-left {
+    display: flex;
+    padding-left: 20px;
+}
+
+.head-middle {
+    display: flex;
+    padding: 10px;
+    flex: 0.5;
+    justify-content: space-around;
+}
+
+.head-middle > button {
+    color: white;
+    text-transform: capitalize !important;
+    padding: 3px 15px 3px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+}
+
+
+.head-middle > button >p {
+    margin-right: 10px;
+    font-weight: bolder;
+    font-size: larger;
+    padding-bottom: 2px;
+}
+
+.head-right {
+    display: flex;
+    align-items: center;
+    padding-right: 30px; 
+    flex: 0.3;
+}
+
+.head-right > input {
+    border: none;
+    border-bottom: 1px solid black;
+    background: white;
+    width: 100%;
+    outline-width: 0; 
+}
+
+.head-right >.MuiSvgIcon-root {
+    color: #0A387D;
+}
+ 
+.profile {
+    cursor: pointer;
+}
+
+@media screen and (max-device-width: 1024px){
+    .all-tickets-head{
+        width: calc((100% - 15rem));
+        margin-left: 14rem;
+        margin-right: 1rem;
+    }
+}
+
+@media screen and (max-device-width: 800px) {
+
+    .all-tickets-head {
+        position:fixed; 
+        width: calc(100% - 30px);
+        margin-left: 30px;
+        margin-top: 10px;
+        margin-right: 0rem;
+
+    }
+    
+    .head-left {
+        display: flex;
+        padding-left: 20px;
+    }
+    
+    .head-middle {
+        display: flex;
+        padding: 10px;
+        flex: 0.5;
+        justify-content: center;
+    }
+    
+    .head-middle > button {
+        color: white;
+        text-transform: capitalize !important;
+        
+    }
+
+    .head-middle h1{
+        
+        color: white;
+        text-transform: capitalize !important;
+        font-size: 0.7rem;
+        font-weight: 100;
+    }
+    
+    .head-right {
+        display: flex;
+        align-items: center;
+        padding-right: 25px; 
+        flex: 0.3;
+        
+    }
+    
+    .head-right > input {
+        border: none;
+        border-bottom: 1px solid black;
+        background: white;
+        width: 100%;
+        outline-width: 0; 
+    }
+    
+    .head-right >.MuiSvgIcon-root {
+        color: #0A387D;
+    }
+    
+
+}
+
+
+     @media screen and (max-device-width: 540px) {
+
+        .all-tickets-head {
+            justify-content: space-around;
+            margin-left: 30px;
+            margin-top: 10px;
+            position: fixed;
+            height: 50px;
+        }
+        
+        .head-left {
+            display: flex;
+            padding-left: 10px;
+            /* width: 200px; */
+        }
+        
+        .head-left > h3 {
+           font-size: 1rem;
+        }
+        .head-middle {
+            display: flex;
+            padding: 1px;
+            flex: 0.1;
+            justify-content: center;
+            margin-left: 30px;
+            
+            
+        }
+        
+        .head-middle > button {
+            color: white;
+            text-transform: capitalize !important;
+            height: 3vh;
+            min-width: 5px;
+            padding-left: 0.7rem;
+            padding-right: 0.0rem;
+            padding-bottom: 0.3rem;
+            font-weight: 800;
+            font-size: 0px;
+        }
+    
+        
+        .head-middle  h1{
+            width: 1px;
+            font-size: 0.1rem;
+            display: none;
+        }
+        .head-right {
+            display: flex;
+            align-items: center;
+            
+            flex: 0.6;
+            
+        }
+        
+        .head-right > input {
+            border: none;
+            border-bottom: 1px solid black;
+            background: white;
+            width: 50%;
+            outline-width: 0; 
+            
+        }
+        .head-right > input:focus {
+            width: 60%;
+        }
+        
+        .head-right >.MuiSvgIcon-root {
+            color: #0A387D;
+        }
+        
+    
+    }
+    
+
+
+
+@media screen and (max-device-width: 414px) {
+
+    .all-tickets-head {
+        border-top: 5px solid black;
+        width: calc(100% - 25px);
+        margin-left: 25px;
+        margin-top: 0px;
+        
+    }
+    
+    .head-left {
+        display: flex;
+        padding-left: 10px;
+        width: 80px;
+    }
+    .head-left > h3 {
+        font-size: 0.85rem;
+    }
+    .head-middle {
+        display: flex;
+        padding: 1px;
+        flex: 0.1 1;
+        margin-left: 30px;
+    }
+    
+    .head-right {
+        display: flex;
+        align-items: center;
+        padding-right: 0px; 
+        flex: 0.5;
+        outline: none;
+        
+    }
+    
+    .head-right > input {
+        border: none;
+        border-bottom: 1px solid black;
+        background: white;
+        width: 40%;
+        outline-width: 0;
+        
+    }
+    
+    .head-right >.MuiSvgIcon-root {
+        color: #0A387D;
+    }
+    
+
+}
+
+
+@media screen and (max-device-width: 375px) {
+
+    .all-tickets-head {
+        margin-top: 0px;
+        width: calc(100% - 25px);
+        margin-left: 25px;
+        border-top: 5px solid black;
+    
+    }
+    
+    .head-left {
+        display: flex;
+        padding-left: 10px;
+        width: 80px;
+        font-size: 0.8rem;
+    }
+
+    .head-left h1{
+        display: none;
+    }
+    
+    .head-middle {
+        display: flex;
+        padding: 0.1px;
+        flex: 0.5;
+        justify-content: center;
+        
+    }
+
+
+    
+    .head-middle > button {
+        color: white;
+        text-transform: capitalize !important;
+        height: 3vh;
+        width: 20px;
+        margin-left: 100px;
+        padding-right: 20px;
+    }
+    
+    .head-right {
+        display: flex;
+        align-items: center;
+        padding-right: 0px; 
+        flex: 0.8;
+       
+        
+    }
+    
+    .head-right > input {
+        border: none;
+        border-bottom: 1px solid black;
+        background: white;
+        width: 40%;
+        outline-width: 0;
+        font-size: 11px;
+        display: none;
+       
+    }
+    
+    .head-right >.MuiSvgIcon-root {
+        color: #0A387D;
+    }
+    
+
+}
+
+
+@media screen and (max-device-width: 280px) {
+
+    .all-tickets-head {
+        width: calc(100% - 24px);
+        margin-top: 0px;
+        margin-left: 24px;
+        position: fixed;
+        border-top: 5px solid black;
+    
+    }
+    
+    .head-left {
+        display: flex;
+        width: 60px;
+        padding-left: 0px;
+    }
+
+    .head-left h3{
+        font-size: 0.85rem;
+        margin-left: 0px;
+    }
+    
+    .head-middle {
+       
+        padding: 0.5px;
+        flex: 0.5;
+        justify-content: center;
+        margin-left: 0.5px;
+        
+        
+    }
+    
+    .head-middle > button {
+       
+        color: white;
+        text-transform: capitalize !important;
+        height: 3vh; 
+        width: 20px;
+        margin-left: 0px;
+        padding-left: 0.4rem;
+        
+    }
+    
+    
+    .head-right {
+        display: flex;
+        align-items: center;
+        padding-right: 0px; 
+        flex: 0.3;
+        
+        
+    }
+    
+    .head-right > input {
+        border: none;
+        border-bottom: 1px solid black;
+        background: white;
+        width: 10%;
+        outline-width: 0;
+        display: none;
+    }
+    
+    .head-right >.MuiSvgIcon-root {
+        color: #0A387D;
+    }
+    
+
+}

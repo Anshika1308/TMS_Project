@@ -1,0 +1,988 @@
+/* .filter-bar {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    margin-top: 0.8rem;
+    height: 45px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.filter-left {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.filter-left > p{
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.filter-left > span {
+    font-size: 0.6rem;
+    border: 0.5px solid gray;
+    border-radius: 999px;
+    margin-left: 0.5rem;
+    padding: 3px;
+    cursor: pointer; 
+}
+
+.filter-mid {
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+    
+}
+
+.filter-mid > p{
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.filter-mid > span {
+    display: flex;
+    align-items: center;
+    font-size: 0.6rem;
+    border: 0.5px solid gray;
+    border-radius: 999px;
+    margin-left: 0.5rem;
+    padding-right: 0.5rem;
+    cursor: pointer;
+    padding-left: 4px;
+}
+
+.dot-icon-low,.dot-icon-med,.dot-icon-high {
+    font-size: medium !important;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.dot-icon-low {
+    color: yellow;
+}
+
+.dot-icon-med {
+    color: green;
+}
+
+.dot-icon-high {
+    color: red;
+}
+
+.filter-icon {
+    font-size: medium !important;
+    margin-left: 0.6rem;
+    border-left: 1px solid black;
+    color: #0A387D !important;
+    cursor: pointer;
+}
+
+.filter-span {
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 0.4rem !important;
+    margin-left: 1.5rem !important;
+    cursor: pointer;
+}
+
+.filter-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5rem;
+    background-color: rgb(240, 234, 234);
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+}
+
+.filter-icon-right {
+    color: #0A387D !important;
+    cursor: pointer;
+}
+
+.filter-icon-right-2 {
+    color: red;
+    cursor: pointer;
+} */
+
+
+
+.filter-bar {
+    display: flex;
+    background-color: white;
+    justify-content:space-between ;
+    line-break: strict;
+    margin-top: 0.5rem;
+    width: 100%;
+    border-radius: 5px; 
+    padding-left: 1rem;
+    
+}
+
+.filter-left {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.filter-left > p{
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.filter-left > span {
+    font-size: 0.6rem;
+    border: 0.5px solid gray;
+    border-radius: 999px;
+    margin-left: 0.5rem;
+    padding: 3px;
+    cursor: pointer; 
+}
+
+.filter-mid {
+    display: flex;
+    align-items: center;   
+}
+
+.filter-mid > p{
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.filter-mid > span {
+    display: flex;
+    align-items: center;
+    font-size: 0.6rem;
+    border: 0.5px solid gray;
+    border-radius: 999px;
+    margin-left: 0.5rem;
+    padding-right: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.dot-icon-low,.dot-icon-med,.dot-icon-high {
+    font-size: medium !important;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.dot-icon-low {
+    color: yellow;
+}
+
+.dot-icon-med {
+    color: green;
+}
+
+.dot-icon-high {
+    color: red;
+}
+
+.filter-icon {
+    font-size: medium !important;
+    margin-left: 0.6rem;
+    border-left: 1px solid black;
+    color: #0A387D !important;
+    cursor: pointer;
+}
+
+.filter{
+    margin-left: 0px;
+}
+
+ .filter-span{
+    font-weight: bold;
+    padding-left: 4px;
+    padding-right: 0.4rem !important;
+    margin-left: 1.5rem !important;
+    cursor: pointer;
+   
+}
+
+.filter-right {
+    display: flex;
+    align-items: center;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 5px;
+    justify-content: space-around;
+    background-color: rgb(240, 234, 234);
+    /* padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.18rem;
+    padding-bottom: 0.18rem;
+     */
+}
+
+.filter-icon-right {
+    color: #0A387D !important;
+    cursor: pointer;
+}
+
+.filter-icon-right-2 {
+    color: red;
+    cursor: pointer;
+}
+
+.all-prio {
+    padding: 3px;
+}
+
+@media screen and (max-device-width: 1024px){
+    .filter-bar{
+       display: flex;
+       background-color: white;
+       justify-content:space-between ;
+       line-break: strict;
+       border-radius: 5px; 
+       width: 100%;
+       flex-wrap: wrap;
+       padding-left: 1rem;
+    }
+    .filter-left {
+        display: flex;
+        align-items: center;
+        padding-top: 2px;
+        padding-bottom: 2px;
+
+    }
+    .filter-left > p{
+        font-weight: bold;
+        font-size: 0.6rem;
+    }
+    .filter-left > span {
+
+        font-size: 0.6rem;
+        border: 0.5px solid gray;
+        border-radius: 999px;
+        margin-left: 0.4rem;
+        padding: 2px;
+        cursor: pointer; 
+    }
+    .filter-mid {
+        display: flex;
+        align-items: center;
+    }
+    .filter-mid > p{
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+    
+    .filter-mid > span {
+        display: flex;
+        align-items: center;
+        font-size: 0.6rem;
+        border: 0.5px solid gray;
+        margin-left: 0.4rem;
+        padding-right: 0.5rem;
+        cursor: pointer;
+    }
+    .filter-span{
+
+        font-weight: bold;
+        padding-left: 4px;
+        padding-right: 0.4rem !important;
+        margin-left: 0.5rem !important;
+        cursor: pointer;
+       
+    }
+}
+
+
+
+@media screen and (max-device-width: 800px) {
+
+    .filter-bar {
+        display: flex;
+        background-color: white;
+        justify-content:space-between ;
+        margin-top: 0.5rem;  
+    }
+    
+    .filter-left {
+    
+        display: flex;
+        align-items: center;
+    }
+    
+    .filter-left > p{
+        font-size: 0.65rem;
+        font-weight: bold;
+    }
+    
+    .filter-left > span {
+        font-size: 0.65rem;
+        border: 0.5px solid gray;
+        border-radius: 999px;
+        margin-left: 2rem;
+        padding: 2px;
+        cursor: pointer; 
+    }
+    
+    .filter-mid {
+        display: flex;
+        align-items: center;
+    }
+    
+    .filter-mid > p{
+        font-size: 0.65rem;
+        font-weight: bold;
+        margin-right: 1rem;
+    }
+    
+    .filter-mid > span {
+        display: flex;
+        align-items: center;
+        font-size: 0.65rem;
+        /* margin-left: 0.5rem; */
+        margin-left: 0.5rem;
+        padding-right: 1rem;
+        cursor: pointer;
+    }
+    
+    .dot-icon-low,.dot-icon-med,.dot-icon-high {
+        font-size: medium !important;
+        margin-right: 2px;
+        cursor: pointer;
+    }
+    
+    .dot-icon-low {
+        color: yellow;
+    }
+    
+    .dot-icon-med {
+        color: green;
+    }
+    
+    .dot-icon-high {
+        color: red;
+    }
+    
+    .filter-icon {
+        font-size: medium !important;
+        margin-left: 0.6rem;
+        border-left: 1px solid black;
+        color: #0A387D !important;
+        cursor: pointer;
+    }
+    
+    .filter{
+        margin-left: 0px;
+    }
+    
+     .filter-span{
+        font-weight: bold;
+        padding-left: 4px;
+        padding-right: 0.4rem !important;
+        margin-left: 1.5rem !important;
+        cursor: pointer;
+       
+    }
+    
+    .filter-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* margin-left: 5rem; */
+        background-color: rgb(240, 234, 234);
+        padding-right: 0.1rem;
+        padding-left: 0.1rem;
+        /* height: calc(100% - 4px); */
+        /* margin-top: 0.5rem; */
+        
+    }
+    
+    .filter-icon-right {
+        color: #0A387D !important;
+        cursor: pointer;
+    }
+    
+    .filter-icon-right-2 {
+        color: red;
+        cursor: pointer;
+    }
+}    
+
+
+@media screen and (max-device-width: 768px)
+ {
+
+    .filter-bar {
+        display: flex;
+        width: 100%;
+                /* flex-direction: row;    */
+                flex-wrap: wrap;   
+       
+    }
+    
+    .filter-left {
+        display: flex;
+        align-items: center;
+         margin-top: 0.5rem;
+        margin-bottom: 0.4rem; 
+        /* margin-left: 2rem; */
+        
+    }
+    
+    .filter-left > p{
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+    
+    .filter-left > span {
+        font-size: 0.65rem;
+        border: 0.5px solid gray;
+        border-radius: 999px;
+        margin-left: 2rem;
+        /* margin-bottom: 0.3rem; */
+        padding: 3px;
+        cursor: pointer; 
+    }
+    
+    .filter-mid {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+        
+    }
+    
+    .filter-mid > p{
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+    
+    .filter-mid > span {
+        display: flex;
+        align-items: center;
+        font-size: 0.65rem;
+        border: 0.5px solid gray;
+        border-radius: 999px;
+        margin-left: 0.5rem;
+        padding-right: 1rem;
+        cursor: pointer;
+    }
+    
+    .dot-icon-low,.dot-icon-med,.dot-icon-high {
+        font-size: medium !important;
+        margin-right: 2px;
+        cursor: pointer;
+    }
+    
+    .dot-icon-low {
+        color: yellow;
+    }
+    
+    .dot-icon-med {
+        color: green;
+    }
+    
+    .dot-icon-high {
+        color: red;
+    }
+    
+    .filter-icon {
+        font-size: medium !important;
+        margin-left: 0.6rem;
+        border-left: 1px solid black;
+        color: #0A387D !important;
+        cursor: pointer;
+    }
+    
+    .filter{
+        margin-left: 0px;
+    }
+    
+     .filter-span{
+        font-weight: bold;
+        padding-left: 4px;
+        padding-right: 0.4rem !important;
+        margin-left: 1.5rem !important;
+        cursor: pointer;
+       
+    }
+    
+    .filter-span2 {
+        font-weight: bold;
+        padding-left: 4px;
+        padding-right: 0.4rem !important;
+        margin-left: 1.5rem !important;
+        cursor: pointer;
+    }
+    
+    .filter-span3 {
+        font-weight: bold;
+        padding-left: 4px;
+        padding-right: 0.4rem !important;
+        margin-left: 1.5rem !important;
+        cursor: pointer;
+    }
+    
+    
+    
+    .filter-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* margin-left: 5rem; */
+        background-color: rgb(240, 234, 234);
+        
+        /* padding-right: 0rem;
+        padding-left: 0rem; */
+        /* right: 0; */
+    }
+    
+    .filter-icon-right {
+        color: #0A387D !important;
+        cursor: pointer;
+    }
+    
+    .filter-icon-right-2 {
+        color: red;
+        cursor: pointer;
+    }
+    
+
+}
+
+
+@media screen and (max-device-width: 540px) {
+
+
+    .filter-bar {
+        margin-top: 10px;
+        width: 100%;
+        border-radius: 5px;
+         display: flex;
+         flex-wrap:wrap;    
+       
+    }
+    
+    .filter-mid {
+        
+      flex-wrap: wrap;
+      padding-bottom: 1px;
+      
+    }
+    .filter-mid > p{
+        margin-bottom:  0.5rem; 
+        
+    }
+    .filter-span{
+        font-weight: bold;
+        padding-left: 4px;
+        padding-right: 0.4rem !important;
+        margin-left: 1.5rem !important;
+        cursor: pointer;
+        margin-bottom:  0.5rem; 
+       
+    }
+    .filter-mid > span {
+        display: flex;
+        align-items: center;
+        font-size: 0.65rem;
+        border: 0.5px solid gray;
+        border-radius: 999px;
+        margin-left: 0.5rem;
+        padding-right: 1rem;
+        cursor: pointer;
+        margin-bottom:  0.5rem; 
+
+
+    }
+
+    .filter-right {
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+    margin-top: 65px;
+    margin-left: 16rem;
+    position: absolute;
+
+    }
+    
+}
+
+@media screen and (max-device-width: 414px) {
+
+    .filter-bar {
+        display: flex;
+        background-color: white;
+        justify-content:space-between ;
+        margin-top: 10px;
+        width: 100%;
+        flex-wrap: wrap;  
+       
+       
+    }
+    
+    .filter-left {
+        display: flex;
+        align-items: center; 
+        margin-top: 10px;
+    }
+    
+    .filter-left > p{
+        font-size: 0.6rem;
+        font-weight: bold;
+        margin-top: 1px;
+        
+    }
+    
+    .filter-left > span {
+        font-size: 0.6rem;
+        border: 0.5px solid gray;
+        border-radius: 999px;
+        margin-left: 1rem;
+        padding: 3px;
+        cursor: pointer; 
+        
+    }
+    
+    
+    .filter-mid > p{
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+    
+    .filter-mid > span {
+        display: flex;
+        align-items: center;
+        font-size: 0.6rem;
+        border: 0.5px solid gray;
+        border-radius: 999px;
+        margin-left: 0.25rem;
+        padding-right: 0.5rem;
+        cursor: pointer;
+    }
+    
+    .dot-icon-low,.dot-icon-med,.dot-icon-high {
+        font-size: medium !important;
+        margin-right: 2px;
+        cursor: pointer;
+    }
+    
+    .dot-icon-low {
+        color: yellow;
+    }
+    
+    .dot-icon-med {
+        color: green;
+    }
+    
+    .dot-icon-high {
+        color: red;
+    }
+    
+    .filter-icon {
+        font-size: medium !important;
+        margin-left: 0.6rem;
+        border-left: 1px solid black;
+        color: #0A387D !important;
+        cursor: pointer;
+       
+    }
+
+    .filter{
+        font-weight: bold;
+        border: solid;
+       
+        
+       
+    }
+    
+    .filter-span {
+        font-weight: bold;
+        padding-left: 15px;
+        padding-right: 0.6rem !important;
+        margin-left: 1.8rem !important;
+        cursor: pointer;
+       
+
+
+    }
+
+    .filter-right {
+        margin-left: 16rem;
+        padding-right: 1rem;
+        padding-left: 0.5rem;
+        margin-top: 67px;
+        position: absolute;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    
+    .filter-icon-right {
+        color: #0A387D !important;
+        cursor: pointer;
+    }
+    
+    .filter-icon-right-2 {
+        color: red;
+        cursor: pointer;
+    }
+    
+}
+
+
+@media screen and (max-device-width: 375px) {
+
+   
+    .filter-bar {
+        width: 100%;
+        margin-top: 0.5rem;
+       flex-wrap: wrap;    
+       
+    }
+    
+    .filter-left {
+        display: flex;
+        align-items: center;
+        margin-top: 0.3rem;
+    }
+
+    
+    .filter-left > p{
+        font-size: 0.5rem;
+        font-weight: bold;
+        margin-top: 0.5px;
+        
+    }
+    
+    .filter-left > span {
+        font-size: 0.5rem;
+        border: 0.5px solid gray;
+        border-radius: 999px;
+        margin-left: 1rem;
+        padding: 3px;
+        cursor: pointer; 
+        
+    }
+    
+    
+    .filter-mid > p{
+        font-size: 0.5rem;
+        font-weight: bold;
+        margin-right: 0.5rem; 
+    }
+    
+    .filter-mid > span {
+        display: flex;
+        align-items: center;
+        font-size: 0.5rem;
+        margin-left: 0.2rem;
+        padding-right: 0.5rem;
+        cursor: pointer;
+        /* margin-right: 0.5rem; */
+    }
+    
+    .dot-icon-low,.dot-icon-med,.dot-icon-high {
+        font-size: medium !important;
+        margin-right: 2px;
+        cursor: pointer;
+    }
+    
+    .dot-icon-low {
+        color: yellow;
+    }
+    
+    .dot-icon-med {
+        color: green;
+    }
+    
+    .dot-icon-high {
+        color: red;
+    }
+    
+    .filter-icon {
+        font-size: medium !important;
+        margin-left: 0.6rem;
+        border-left: 1px solid black;
+        color: #0A387D !important;
+        cursor: pointer;
+       
+    }
+
+    .filter{
+        font-weight: bold;
+        border: solid;
+       
+        
+       
+    }
+    
+    .filter-span {
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 0.6rem !important;
+        margin-left: 1rem !important;
+        cursor: pointer;
+       
+
+
+    }
+
+    .filter-right {
+        margin-left: 13.5rem;
+        padding-right: 0rem;
+        padding-left: 0rem;
+        margin-top: 60px;
+        position: absolute;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    
+    .filter-icon-right {
+        color: #0A387D !important;
+        cursor: pointer;
+    }
+    
+    .filter-icon-right-2 {
+        color: red;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-device-width: 280px) {
+
+    .filter-bar {
+        display: flex;
+        background-color: white;
+        justify-content:space-between ;
+        margin-top: 0.5rem;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        width: 100%;
+        padding-left: 0.5rem;
+        
+       
+    }
+    
+    .filter-left {
+        display: flex;
+        align-items: center;
+        /* margin-left: 0.5rem; */
+        margin-top: 0.3rem;
+        margin-bottom: 0.2rem;
+    }
+    
+    .filter-left > p{
+        font-size: 0.5rem;
+        font-weight: bold;
+        margin-top: 1px;
+        
+    }
+    
+    .filter-left > span {
+        font-size: 0.5rem;
+        border: 0.5px solid gray;
+        border-radius: 999px;
+        margin-left: 0.4rem;
+        padding: 2px;
+        cursor: pointer; 
+        
+    }
+/*     
+    .filter-mid {
+       margin-left: 10px;
+       margin-top: 1px;
+       position: absolute;
+      
+    } */
+    
+    .filter-mid > p{
+        font-size: 0.5rem;
+        font-weight: bold;
+        margin-top: 1px;
+        margin-right: 0rem;
+    }
+    
+    .filter-mid > span {
+        display: flex;
+        align-items: center;
+        font-size: 0.5rem;
+        border: 0.5px solid gray;
+        border-radius: 999px;
+        margin-left: 0.3rem;
+        padding-right: 0.3rem;
+        cursor: pointer;
+    }
+    
+    .dot-icon-low,.dot-icon-med,.dot-icon-high {
+        font-size: small !important;
+        margin-right: 0px;
+        cursor: pointer;
+    }
+    
+    .dot-icon-low {
+        color: yellow;
+    }
+    
+    .dot-icon-med {
+        color: green;
+    }
+    
+    .dot-icon-high {
+        color: red;
+    }
+    
+    .filter-icon {
+        font-size: medium !important;
+        margin-left: 0.6rem;
+        border-left: 1px solid black;
+        color: #0A387D !important;
+        cursor: pointer;
+       
+    }
+
+    .filter{
+        font-weight: bold;
+        border: solid;
+       
+        
+       
+    }
+    
+    .filter-span {
+        display: inline-block;
+        font-weight: bold;
+        padding-left: 4px;
+        padding-right: 0.2rem !important;
+        margin-left: 0.5rem !important;
+        cursor: pointer;
+       
+
+
+    }
+    
+    .filter-right {
+        height: 3.7vh;
+        margin-left: 10.5rem;
+        margin-top:55px;
+        /* align-items: center;
+        justify-content: space-around;
+        margin-left: 11.5rem;
+        background-color: rgb(240, 234, 234);
+        padding-right: 1rem;
+        padding-left: 0.5rem;
+        margin-top: 70px;
+        margin-right: 40px;
+        position: fixed; */
+    }
+    
+    .filter-icon-right {
+        color: #0A387D !important;
+        cursor: pointer;
+    }
+    
+    .filter-icon-right-2 {
+        color: red;
+        cursor: pointer;
+    }
+    
+}

@@ -1,0 +1,201 @@
+.card-details {
+    margin-top: 0.8rem;
+    cursor: pointer;
+}
+.card{
+    height: 120px !important;
+    width: 220px !important;
+    margin-left: 9px;
+    margin-top: 9px;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.red {
+    border-left: 5px solid #F0754D; 
+}
+
+.yellow {
+    border-left: 5px solid #FFE500; 
+}
+
+.green {
+    border-left: 5px solid #36D187; 
+}
+
+
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-top > span {
+    color: #3169bd;
+    font-weight: bold;
+    font-size: 11px;
+    padding-left: 8px;
+}
+
+.card-para {
+    font-size: 11px;
+    padding-left: 8px;
+    font-weight: bold;
+}
+
+.card-mid {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+
+.card-mid > span {
+    font-weight: bold;
+    font-size: 9px;
+}
+
+.card-mid > span > p {
+    font-weight: lighter;
+}
+
+.status-para {
+    color: #3169bd;
+    font-weight: bolder !important;
+}
+
+.card-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    justify-content: space-around;
+}
+
+.card-bottom > span {
+    font-weight: bold;
+    font-size: 9px;
+}
+
+.card-bottom > span > p {
+    font-weight: lighter;
+}
+
+
+@media screen and (max-device-width: 540px){
+    .card{
+        height: 140px !important;
+        width: 90% !important;
+        margin-left: 10px;
+        margin-top: 10px;
+       
+    }
+    .card-top > span {
+        font-size: 17px;
+        padding-left: 10px;
+    }
+    .card-para {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .card-mid > span {
+        font-size: 10px;
+    }
+    .card-bottom > span {
+        font-weight: bold;
+        font-size: 10px;
+    }
+    
+   
+}
+@media screen and (max-device-width: 414px){
+    .card{
+        height: 120px !important;
+        /* width: 250px !important; */
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .card-top > span {
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .card-para {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .card-mid > span {
+        font-size: 9px;
+    }
+    .card-bottom > span {
+        font-weight: bold;
+        font-size: 9px;
+    }
+    
+   
+}
+
+
+@media screen and (max-device-width: 375px){
+    .card{
+        height: 120px !important;
+        /* width: 90% !important; */
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .card-top > span {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .card-para {
+        font-size: 12px;
+        padding-left: 10px;
+    }
+    .card-mid > span {
+        font-size: 10px;
+    }
+    .card-bottom > span {
+        font-weight: bold;
+        font-size: 9px;
+    }
+    
+   
+}
+
+
+@media screen and (max-device-width: 280px){
+    .card{
+        height: 100px !important;
+        /* width: 90% !important; */
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    .card-details {
+        margin-top: 0.4rem;
+        cursor: pointer;
+    }
+    .card-top > span {
+        font-size: 9px;
+        padding-left: 5px;
+    }
+    .card-para {
+        font-size: 9px;
+        padding-left: 5px;
+    }
+    .card-mid {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 6px;
+    }
+    .card-mid > span {
+        font-size: 6px;
+    }
+    .card-bottom > span {
+        font-weight: bold;
+        font-size: 6px;
+    }
+    
+   
+}

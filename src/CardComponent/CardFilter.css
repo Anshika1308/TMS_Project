@@ -1,0 +1,216 @@
+.filter-area {
+    display: flex;
+}
+
+.rec-carousel {
+    margin-right: 5px;
+}
+
+.sc-iCfMLu.gZZBOx.rec.rec-pagination {
+    display: none;
+}
+
+.card-filter {
+    margin-top: 1rem;
+    width: 240px;
+    border: 0.5px solid gray;
+}
+.filter-head {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    height: 30px;
+    width: 239px;
+    background-color: rgb(209, 202, 202);  
+    border-bottom: 0.5px solid gray;
+    border-right: 0.5px solid gray;
+}
+
+.filter-head-left > span {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 5px;
+    display: inline-block;
+    width: 140px;
+}
+
+.filter-head-mid {
+    display: flex;
+    align-items: center;
+    border-radius: 999px;
+    cursor: pointer;
+    padding-right: 8px;
+    padding-left: 5px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.icon-filter {
+    font-size: 21px !important;
+    padding-right: 4px;
+    border-right: 0.5px solid black;
+}
+
+.icon-filter-2 {
+    font-size: 18px !important;
+}
+
+
+@media screen and (max-device-width: 540px){
+    .card-filter {
+        margin-top: 1rem;
+        width: 100%;
+        border: 0.5px solid gray;
+    }
+    .filter-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+        width: 100%;
+        background-color: rgb(209, 202, 202);  
+        border-bottom: 0.5px solid gray;
+        border-right: 0.5px solid gray;
+    }
+    .filter-head-left > span {
+        font-size: 17px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+    .icon-filter {
+        font-size: 25px !important;
+        padding-right: 4px;
+        border-right: 0.5px solid black;
+    }
+    .icon-filter-2 {
+        font-size: 22px !important;
+    }
+   
+}
+@media screen and (max-device-width: 414px){
+    .card-filter {
+        margin-top: 1rem;
+        width: 100%;
+        border: 0.5px solid gray;
+    }
+    .filter-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+        width: 100%;
+        background-color: rgb(209, 202, 202);  
+        border-bottom: 0.5px solid gray;
+        border-right: 0.5px solid gray;
+    }
+    .filter-head-left > span {
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+   
+    .icon-filter {
+        font-size: 25px !important;
+        padding-right: 4px;
+        border-right: 0.5px solid black;
+    }
+    
+    .icon-filter-2 {
+        font-size: 22px !important;
+    }
+    
+}
+
+
+
+
+@media screen and (max-device-width: 375px){
+    /* .sc-gsDKAQ izuVIe rec rec-item-wrapper{
+       width: 100%;
+    }
+    .sc-hKwDye jZlXPY rec rec-slider{
+        width: 100% !important;
+        right: 0;
+    } */
+    .card-filter {
+        margin-top: 1rem;
+        width: 100%;
+        border: 0.5px solid gray;
+        right: 0;
+        left: 0;
+    }
+    .filter-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 40px;
+        width: 100%;
+        background-color: rgb(209, 202, 202);  
+        border-bottom: 0.5px solid gray;
+        border-right: 0.5px solid gray;
+    }
+    .filter-head-left > span {
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+   
+    .icon-filter {
+        font-size: 25px !important;
+        padding-right: 4px;
+        border-right: 0.5px solid black;
+    }
+    
+    .icon-filter-2 {
+        font-size: 22px !important;
+    }
+    
+}
+
+
+
+@media screen  and (max-device-width: 280px){
+    
+    .card-filter {
+        margin-top: 1rem;
+        width: 100%;
+        border: 0.5px solid gray;
+        right: 0;
+        left: 0;
+    }
+    .filter-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 30px;
+        width: 100%;
+        background-color: rgb(209, 202, 202);  
+        border-bottom: 0.5px solid gray;
+        border-right: 0.5px solid gray;
+    }
+    .filter-head-left{
+        height: 20px;
+         display: flex;
+       
+    }
+    .filter-head-left > span {
+        font-size: 0.55rem;
+        font-weight: bold;
+        margin-left: 5px;
+        height: 2vh;
+    }
+   
+    .icon-filter {
+        font-size: 19px !important;
+        padding-right: 4px;
+        border-right: 0.5px solid black;
+    }
+    
+    .icon-filter-2 {
+        font-size: 15px !important;
+    }
+    .icon-filter-3{
+        font-size: 15px !important;
+    }
+    
+}

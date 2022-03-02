@@ -1,0 +1,436 @@
+.ticket-parent {
+    display: flex;
+    width: 100%;
+    margin-top: 0.5rem;
+    flex-direction: row;
+  }
+  
+  .noId {
+    height: 100%;
+    /* margin-top: 1rem; */
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 50px;
+    background-color: white;
+    min-height: 30rem;
+    /* min-width: 38rem; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+  .noId > p {
+    margin-top: 10px;
+    font-weight: bolder;
+  }
+  
+  .noId-icon {
+    font-size: 18rem !important;
+    margin-top: 25px;
+    color: #0a387d;
+  }
+  
+  .tickets-list {
+    background-color: white;
+    /* margin-top: 12.5px; */
+    width: 75%;
+    max-width: 25rem;
+    min-height: 30rem;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+  }
+  
+  .left-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .top-ticket {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #707070;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .top-ticket > p {
+    font-size: x-small;
+    color: #0866bd;
+    font-weight: bold;
+  }
+  
+  .single-list {
+    border: 1px solid #00000029;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .red {
+    border-left: 5px solid #F0754D; 
+}
+
+.yellow {
+    border-left: 5px solid #FFE500; 
+}
+
+.green {
+    border-left: 5px solid #36D187; 
+}
+  
+  .single-list-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .single-list-title > p {
+    color: #0866bd;
+    font-weight: bold;
+    font-size: x-small;
+    margin-left: 8px;
+  }
+  
+  .single-list-desc {
+    font-size: x-small;
+    font-weight: bold;
+    margin-left: 8px;
+  }
+  
+  .single-list-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 8px;
+    margin-top: 10px;
+  }
+  
+  .single-list-stat {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .single-list-stat > p {
+    font-weight: bold;
+    font-size: xx-small;
+  }
+  
+  .single-list-stat > span {
+    font-weight: bold;
+    font-size: x-small;
+    color: #0866bd;
+    margin-top: 2px;
+  }
+  
+  .single-list-rest {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .single-list-rest > p {
+    font-weight: bold;
+    font-size: xx-small;
+  }
+  
+  .single-list-rest > span {
+    font-size: x-small;
+    margin-top: 2px;
+  }
+  
+  .due {
+    margin-right: 5px;
+  }
+  
+  .single-list-created {
+    font-size: xx-small;
+    font-weight: bold;
+    color: #0866bd;
+    margin-left: 8px;
+    margin-top: 10px;
+  }
+  
+  .div-left-duplicate {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+  }
+  
+  .my-ticket-area-duplicate {
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* margin-top: 1rem; */
+    width: calc(65% - 2rem);
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .my-ticket-description-duplicate {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #f5f5f5;
+    font-size: smaller;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .user-input-section-duplicate {
+    background-color: #f5f5f5;
+    margin-left: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .user-input-section-duplicate > textarea {
+    resize: none;
+    width: 95%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .user-input-section-duplicate > button {
+    background-color: #0a387d;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: calc(100% - 4rem);
+  }
+  
+  .div-center-duplicate {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f5f5f5;
+    margin-top: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 10px;
+    width: auto;
+    border-radius: 5px;
+  }
+  
+  .div-center-duplicate > h1 {
+    font-size: smaller;
+    margin-top: 20px;
+  }
+  
+  @media screen and (max-device-width: 1024px) {
+    .ticket-parent {
+      width: 100%;
+    }
+    .tickets-list {
+      background-color: white;
+      /* margin-left: 14rem; */
+      /* margin-top: 15px; */
+      width: 30%;
+      /* height: 100%; */
+      /* max-width: 25rem; */
+      /* min-height: 30rem; */
+      padding-left: 8px;
+      padding-right: 8px;
+      border-radius: 5px;
+    }
+    .my-ticket-area-duplicate {
+      display: flex;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      width: calc(70% - 2rem);
+      /* margin-top: 1rem; */
+      background-color: white;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  
+    .noId {
+      width: 100%;
+      height: 100%;
+    }
+    .div-left-duplicate {
+      display: flex;
+      flex-direction: column;
+      width: 65%;
+    }
+    .div-center-duplicate {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background-color: #f5f5f5;
+      margin-top: 10px;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      padding: 10px;
+      width: calc(35% - 2rem);
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    user-input-section-duplicate > button {
+      background-color: #0a387d;
+      color: white;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 12px;
+      padding-right: 12px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      cursor: pointer;
+      margin-left: calc(65% - 1rem);
+    }
+  
+    .user-input-section-duplicate > textarea {
+      resize: none;
+      width: 90%;
+      height: 50px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      padding: 10px;
+    }
+    .user-input-section-duplicate > button {
+      background-color: #0a387d;
+      color: white;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 12px;
+      padding-right: 12px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      cursor: pointer;
+      margin-left: calc(65% - (-1.5rem));
+    }
+  }
+  
+  @media screen and (max-device-width: 800px) {
+    .ticket-parent {
+      width: 100%;
+      display: flex;
+      margin-top: 1rem;
+      flex-direction: column;
+    }
+    .tickets-list {
+      background-color: white;
+      /* margin-top: 15px; */
+      margin-left: 1rem;
+      margin-right: 1rem;
+      width: calc(100% - 2rem);
+      max-width: 100%;
+      padding-left: 8px;
+      padding-right: 8px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    .my-ticket-area-duplicate {
+      display: flex;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-top: 1rem;
+      width: calc(100% - 2rem);
+      background-color: white;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    .div-left-duplicate {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .div-center-duplicate {
+      display: none;
+      width: 0%;
+    }
+  
+    .user-input-section-duplicate {
+      background-color: #f5f5f5;
+      margin-left: 15px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      margin-right: 15px;
+      margin-bottom: 15px;
+    }
+    .user-input-section-duplicate > button {
+      background-color: #0a387d;
+      color: white;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 12px;
+      padding-right: 12px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      cursor: pointer;
+      margin-left: calc(100% - 4rem);
+    }
+  
+    .noId {
+      width: calc(100% - 2rem);
+      height: 100%;
+      margin-top: 1rem;
+    }
+  }
+  
+  @media screen and (max-device-width: 768) {
+    .ticket-parent {
+      width: 100%;
+    }
+    .tickets-list {
+      background-color: white;
+      /* margin-top: 15px; */
+      margin-left: 0.5rem;
+      width: 50%;
+      /* height: 100%; */
+      /* max-width: 25rem; */
+      /* min-height: 30rem; */
+      padding-left: 8px;
+      padding-right: 8px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    .my-ticket-area-duplicate {
+      display: flex;
+      margin-left: 0rem;
+      margin-right: 0rem;
+      /* margin-top: 1rem; */
+      width: 100%;
+      background-color: white;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }
+  

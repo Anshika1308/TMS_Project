@@ -1,0 +1,898 @@
+.my-ticket {
+    margin-left: 14rem;
+    margin-top: 4.2rem;
+    width: calc(100% - 14rem);
+    position: absolute;
+}
+
+.my-ticket-bar {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width:100%;
+  background-color: white;
+  margin-left: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.create-ticket-new {
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    align-items: center;
+    margin-right: 1rem;
+    width: calc(100% - 2rem);
+  }
+  
+
+.my-ticket-bar > span {
+        font-weight: bold;
+        margin-left: 10px;
+}
+
+.bar-title {
+    font-size: small;
+    padding-right: 10px;
+    border-right: 0.1px rgb(185, 183, 183) solid;
+}
+
+.my-ticket-area {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 18px;
+    padding-bottom: 1rem;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+.div-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 33%;
+}
+
+.my-span {
+    font-weight: bolder;
+    font-size: small;
+    color: #0866bd;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.my-span-2 {
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 15px
+}
+
+.my-ticket-description {
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: #F5F5F5;
+    font-size: smaller;
+    padding: 10px;
+    width: 150%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.my-tickets-head {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+.my-tickets-comments-head {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #0A387D;
+    background-color: #F5F5F5;
+    width: 20%;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+.my-tickets-comments-act {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #0A387D;
+    background-color: #F5F5F5;
+    width: 18%;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;   
+}
+
+.user-input-section {
+    background-color: #F5F5F5;
+    margin-left: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.user-input-section > textarea {
+    resize: none;
+    width: 96%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+}
+
+.user-input-section > button {
+    background-color: #0A387D;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    margin-left: 28rem;
+
+}
+
+.comments-display {
+    background-color: white;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 96%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.comment-head {
+    display: flex;
+    align-items: center;
+}
+
+.title-comment {
+    margin-left: 5px;
+    font-size: smaller;
+    color: #0866BD;
+    font-weight: bold;
+}
+
+.title-note {
+    margin-left: 1.7rem;
+    font-size: x-small;
+    color: #0A387D;
+}
+
+.title-time {
+    margin-left: 10px;
+    font-size: x-small;
+    font-weight: bold;
+    color: #0A387D;
+}
+
+.comment-content {
+    margin-top: 7px;
+    margin-left: 7px;
+    font-size: smaller;
+}
+
+.div-center {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 180px;
+    width: 22%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.status-progress {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status-progress > h1 {
+    font-size: smaller;
+}
+
+.stat-open {
+    background-color: #0866BD;
+    color: white;
+    font-weight: bolder;
+    width: 38%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.stat-close {
+    background-color: rgb(156, 4, 4);
+    color: white;
+    font-weight: bolder;
+    width: 35%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.stat-progress {
+    background-color: rgb(209, 140, 12);
+    color: white;
+    font-weight: bolder;
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.stat-work {
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    width: 70%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+
+
+.my-status {
+    margin-left: 12px;
+    padding: 2px;
+    border-radius: 8px;
+    color: #0A387D;
+    font-size: x-small;
+}
+
+.my-timer {
+    margin-top: 20px;
+    background-color: #0A387D;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+}
+
+.my-timer > span {
+    font-weight: bold;
+}
+
+.my-progress-bar {
+    margin-top: 10px;
+    background-color: #36D187;
+    border-radius: 30px;
+}
+
+.div-center > h1 {
+    font-size: smaller;
+    margin-top: 20px;
+}
+
+.single-attachment {
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.attach-text {
+    display: flex;
+}
+
+.attach-con {
+    display: flex;
+    cursor: pointer;
+}
+
+.attachment-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 5px;
+    font-size: x-small;
+    margin-top: 5px;
+}
+
+.attachment-text > p {
+    margin-top: 2px;
+}
+
+.attachment-icon {
+    color: #0866BD !important;
+    font-size: xx-large !important;
+    cursor: pointer !important ;
+}
+
+.resParty-next {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.resParty-next > h1 {
+    font-size: smaller;
+}
+
+
+.my-details-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.my-details-head > h1 {
+    font-size: smaller;
+}
+
+.my-details-head > a {
+    font-size: smaller;
+}
+
+.details-div > span {
+    font-size: x-small;
+    margin-top: 15px;
+}
+
+.details-div > p {
+    font-size: x-small;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.details-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.people {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.people > p {
+    margin-left: 5px;
+    font-size: x-small;
+    flex: 30%
+}
+
+.div-right {
+    margin-top: 20px;
+    background-color: #F5F5F5;
+    width: 22%;
+    margin-right: 10px;
+}
+
+.faq-head {
+    background-color: #0A387D;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.accordianstyle-duplicate {
+    width: 90%;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.accordianstyle-duplicate .suggestion  {
+    font-size: 0.8rem;
+}
+
+.acc-head {
+    font-size: x-small;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: 7px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #707070;
+    color: #0866BD;
+}
+.acc-head-2 {
+    font-size: x-small;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 7px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #707070;
+    color: #0866BD;
+}
+
+.my-accordian {
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.edit-span {
+    cursor: pointer;
+}
+
+.typo {
+    font-size: smaller !important;
+}
+/* 
+@media screen and (max-device-width: 800px)
+{
+    .my-ticket {
+        margin-left: 0rem;
+        
+        margin-top: 4.2rem;
+    }
+    .create-new-ticket {
+        display: flex;
+        margin-left: 0rem;
+        margin-top: 0.5rem;
+        align-items: center;
+    }
+    .my-ticket-area {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0rem;
+        margin-top: 18px;
+        background-color: white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+} */
+
+@media screen and (max-device-width: 1024px)
+{
+    .create-new-ticket {
+        display: flex;
+        margin-left: 0rem;
+        margin-right: 1rem;
+        margin-top: 0.5rem;
+        align-items: center;
+    }
+    .my-ticket-area {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 0.5rem;
+        margin-right: 1rem;
+        margin-top: 18px;
+        background-color: white;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    
+    .div-left {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    .my-span {
+        font-weight: bolder;
+        font-size: small;
+        color: #0866bd;
+        margin-top: 10px;
+        margin-left: 15px;
+        width: 100%;
+    }
+    .my-span-2 {
+        font-weight: bolder;
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 100%;
+    }
+    .my-ticket-description {
+        margin-top: 15px;
+        margin-left: 15px;
+        background-color: #F5F5F5;
+        font-size: smaller;
+        padding: 10px;
+        width: 100%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .my-tickets-head {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 15px;
+        width: 100%;
+    }
+    .my-tickets-comments-head {
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        color: #0A387D;
+        background-color: #F5F5F5;
+        width: 25%;
+        padding: 10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .my-tickets-comments-act {
+        text-align: center;
+        margin-left: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        color: #0A387D;
+        background-color: #F5F5F5;
+        width: 25%;
+        padding: 10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    .user-input-section {
+        background-color: #F5F5F5;
+        margin-left: 15px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        width: 100%;
+    }
+    .user-input-section > textarea {
+        resize: none;
+        width: 96%;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding: 10px;
+    }
+    .user-input-section > button {
+        background-color: #0A387D;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 12px;
+        padding-right: 12px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        cursor: pointer;
+        right: 0;
+        
+        margin-left: calc(100% - 4rem)
+    }
+    .comments-display {
+        background-color: white;
+        height: auto;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        width: 90%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        
+    }
+    .comment-head {
+        display: flex;
+        align-items: center;
+        /* width: 90%; */
+    }
+    .comment-content {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 7px;
+        margin-left: 7px;
+        font-size: smaller;
+        width: 96%;
+    }
+
+    .div-center {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: #F5F5F5;
+        margin-top: 20px;
+        padding: 10px;
+        margin-left: 1rem;
+        width: 22%;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .my-timer {
+        margin-top: 20px;
+        background-color: #0A387D;
+        text-align: center;
+        border-radius: 30px;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: lighter;
+        width: 100%;
+    }
+    .my-progress-bar {
+        margin-top: 10px;
+        background-color: #36D187;
+        border-radius: 30px;
+        width: 100%;
+    }
+    .my-details-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .details-div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .details-div > span {
+        font-size: x-small;
+        margin-top: 15px;
+        width: 50%;
+    }
+    .details-div > p {
+        font-size: x-small;
+        font-weight: bold;
+        margin-top: 15px;
+        text-align: left;
+        width: 50%;
+    }
+    .people {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-device-width: 800px)
+{
+    .back-btn {
+        display: none !important;
+    }
+
+    .my-ticket {
+        margin-left: 0rem;
+        margin-top: 4.2rem;
+        width: calc(100% - 0rem);
+    }
+    .my-ticket-bar {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        width:100%;
+        background-color: white;
+        margin-left: 0px;
+     }
+   
+}
+
+@media screen and (max-device-width: 768px){
+    .my-ticket {
+        margin-left: 0rem;
+        margin-top: 5.2rem;
+        width: 100%;
+        margin-top: 3.8rem;
+    }
+    .my-ticket-bar {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        width: 100%;
+        background-color: white;
+        margin-left: 0px;
+        display: none;
+    }
+    .my-ticket-area {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: 0px;
+        padding-bottom: 1rem;
+    }
+    .my-span {
+        font-weight: bolder;
+        font-size: small;
+        color: #0866bd;
+        margin-top: 10px;
+        margin-left: 15px;
+        width: calc(100% - 15px);
+    }
+    .my-span-2 {
+        font-weight: bolder;
+        margin-top: 20px;
+        margin-left: 15px;
+        width: calc(100% - 15px);
+    }
+    .div-left {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .my-tickets-head {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 15px;
+        width: calc(100% - 30px);
+    }
+    .my-ticket-description {
+        margin-top: 15px;
+        margin-left: 15px;
+        background-color: #F5F5F5;
+        font-size: smaller;
+        padding: 10px;
+        width: calc(100% - 30px);
+        
+    }
+    head {
+        display: flex;
+        margin-top: 10px;
+        margin-left: 15px;
+        width: calc(100%-15px);
+    }
+    .user-input-section {
+        background-color: #F5F5F5;
+        margin-left: 15px;
+        width: calc(100% - 30px);
+    }
+    .user-input-section > textarea {
+        resize: none;
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 10px;
+        width: 96%;
+    }
+    .user-input-section > button {
+        background-color: #0A387D;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 12px;
+        padding-right: 12px;
+        cursor: pointer;
+        right: 0;
+        margin-left: calc(100% - 5rem);
+    }
+    .comments-display {
+        background-color: white;
+        padding-bottom: 10px;
+        height: auto;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        width: calc(100% - 30px);
+    }
+
+    .div-center {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: #F5F5F5;
+        margin-top: 20px;
+        padding: 10px;
+        margin-left: 1rem;
+        width: 0%;
+        display: none;
+    }
+    .div-right {
+        margin-top: 20px;
+        background-color: #F5F5F5;
+        width: 0%;
+        margin-right: 10px;
+        display: none;
+    }
+
+}
+
+
+
+
+@media screen and (max-device-width: 540px){
+    .my-ticket {
+        margin-left: 0rem;
+        margin-top: 4rem;
+        width: 100%;
+    }
+    .title-comment {
+        margin-left: 5px;
+        font-size: smaller;
+        color: #0866BD;
+        font-weight: bold;
+        width: 100px;
+    }
+    .title-note {
+        margin-left: 1rem;
+        font-size: x-small;
+        color: #0A387D;
+    }
+}
+
+
+@media screen and (max-device-width: 414px){
+    .my-ticket {
+        margin-left: 0rem;
+        margin-top: 3.3rem;
+        width: 100%;
+    }
+    .title-comment {
+        margin-left: 5px;
+        font-size: 0.7rem;
+        color: #0866BD;
+        font-weight: bold;
+        width: 100px;
+    }
+
+    
+}
+@media screen and (max-device-width: 414px){
+   
+    .my-tickets-comments-head {
+     
+        font-size: 10px;
+        
+    }
+    .my-tickets-comments-act {
+       
+        font-size: 10px;
+        
+    }
+}

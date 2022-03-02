@@ -1,0 +1,70 @@
+.k-base {
+    margin-left: 15.3rem;
+    margin-top: 5rem;
+    width: 79%;
+}
+
+.k-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.k-title > button {
+    padding: 5px 10px 5px 10px;
+    font-weight: bolder;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.k-title > button:hover {
+ background-color: #0A387D;
+ color:white;
+}
+
+.k-title > button > span {
+ font-size: large;
+ margin-right: 5px;
+}
+
+.k-content {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 8px;
+    padding-bottom: 9px;
+    border-bottom: 0.1px solid #707070;
+    cursor: pointer;
+}
+
+.k-div-left > img {
+    border-radius: 5px;
+    width: 16rem;
+    height: 6rem;
+}
+
+.k-div-right {
+    margin-left: 20px;
+    font-size: small;
+}
+
+.k-div-right >p {
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-size: smaller;
+}
+
+.k-div-right > span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.k-div-right >div {
+  
+  width: 40rem; 
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis; 
+  margin-top: 5px;
+}
+
